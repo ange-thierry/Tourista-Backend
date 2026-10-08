@@ -1,0 +1,286 @@
+{
+ "hotel_owner": [
+  {
+   "id": "h1",
+   "name": "Deluxe Twin Room",
+   "description": "City view, breakfast included, king or twin beds",
+   "price": "$180 / night",
+   "category": "Rooms",
+   "status": "active"
+  },
+  {
+   "id": "h2",
+   "name": "Executive Suite",
+   "description": "Lake view suite with lounge access",
+   "price": "$320 / night",
+   "category": "Suites",
+   "status": "active"
+  },
+  {
+   "id": "h3",
+   "name": "Standard Double",
+   "description": "Comfortable room for business travelers",
+   "price": "$120 / night",
+   "category": "Rooms",
+   "status": "active"
+  },
+  {
+   "id": "h4",
+   "name": "Family Connecting Rooms",
+   "description": "Two rooms with connecting door",
+   "price": "$260 / night",
+   "category": "Family",
+   "status": "draft"
+  }
+ ],
+ "tour_operator": [
+  {
+   "id": "t1",
+   "name": "Gorilla Trekking Day Trip",
+   "description": "Guided trek with permits assistance",
+   "price": "$1,500 / person",
+   "category": "Wildlife",
+   "status": "active"
+  },
+  {
+   "id": "t2",
+   "name": "Kigali City Cultural Walk",
+   "description": "Half-day guided city experience",
+   "price": "$45 / person",
+   "category": "Culture",
+   "status": "active"
+  },
+  {
+   "id": "t3",
+   "name": "Lake Kivu Boat & Village Tour",
+   "description": "Full-day lakeside cultural outing",
+   "price": "$95 / person",
+   "category": "Lakes",
+   "status": "active"
+  }
+ ],
+ "restaurant_owner": [
+  {
+   "id": "r1",
+   "name": "Traditional Dinner for 2",
+   "description": "Igikoma tasting with live music",
+   "price": "$55",
+   "category": "Dining",
+   "status": "active"
+  },
+  {
+   "id": "r2",
+   "name": "Private Chef Table",
+   "description": "8-seat tasting menu",
+   "price": "$220",
+   "category": "Private",
+   "status": "active"
+  },
+  {
+   "id": "r3",
+   "name": "Business Lunch Set",
+   "description": "Two courses with coffee",
+   "price": "$28",
+   "category": "Lunch",
+   "status": "active"
+  }
+ ],
+ "transport_owner": [
+  {
+   "id": "tr1",
+   "name": "Airport Transfer SUV",
+   "description": "Kigali airport to city hotels",
+   "price": "$40 / trip",
+   "category": "Transfers",
+   "status": "active"
+  },
+  {
+   "id": "tr2",
+   "name": "Safari 4x4 Daily Hire",
+   "description": "With driver-guide",
+   "price": "$120 / day",
+   "category": "Safari",
+   "status": "active"
+  },
+  {
+   "id": "tr3",
+   "name": "City Day Hire (Sedan)",
+   "description": "8-hour chauffeur service",
+   "price": "$70 / day",
+   "category": "City",
+   "status": "active"
+  }
+ ],
+ "park_manager": [
+  {
+   "id": "p1",
+   "name": "Park Day Entry",
+   "description": "Standard visitor entry",
+   "price": "$50 / person",
+   "category": "Entry",
+   "status": "active"
+  },
+  {
+   "id": "p2",
+   "name": "Guided Nature Walk",
+   "description": "2-hour ranger-led walk",
+   "price": "$35 / person",
+   "category": "Activities",
+   "status": "active"
+  },
+  {
+   "id": "p3",
+   "name": "Canopy Trail Experience",
+   "description": "Guided elevated walkway visit",
+   "price": "$60 / person",
+   "category": "Activities",
+   "status": "active"
+  }
+ ],
+ "destination_manager": [
+  {
+   "id": "d1",
+   "name": "Volcanoes National Park Experience",
+   "description": "Multi-day park package",
+   "price": "$1,500 / person",
+   "category": "Parks",
+   "status": "active"
+  },
+  {
+   "id": "d2",
+   "name": "Lake Kivu Getaway",
+   "description": "2-day lakeside escape",
+   "price": "$220 / person",
+   "category": "Lakes",
+   "status": "active"
+  },
+  {
+   "id": "d3",
+   "name": "Nyungwe Canopy Trail Day",
+   "description": "Forest walk with guide",
+   "price": "$90 / person",
+   "category": "Forest",
+   "status": "active"
+  }
+ ],
+ "artisan": [
+  {
+   "id": "a1",
+   "name": "Basket Weaving Workshop",
+   "description": "2-hour hands-on session",
+   "price": "$25 / person",
+   "category": "Workshop",
+   "status": "active"
+  },
+  {
+   "id": "a2",
+   "name": "Custom Imigongo Panel",
+   "description": "Made-to-order artwork",
+   "price": "$80",
+   "category": "Products",
+   "status": "active"
+  },
+  {
+   "id": "a3",
+   "name": "Coffee Sorting Experience",
+   "description": "Farm visit + tasting",
+   "price": "$35 / person",
+   "category": "Workshop",
+   "status": "active"
+  }
+ ],
+ "history_culture_manager": [
+  {
+   "id": "hc1",
+   "name": "Genocide Memorial Guided Visit",
+   "description": "Documented memorial tour",
+   "price": "$Free / donation",
+   "category": "Memorial",
+   "status": "active"
+  },
+  {
+   "id": "hc2",
+   "name": "King’s Palace Museum Tour",
+   "description": "Guided cultural heritage visit",
+   "price": "$10 / person",
+   "category": "Museum",
+   "status": "active"
+  },
+  {
+   "id": "hc3",
+   "name": "Ethnographic Gallery Walk",
+   "description": "Curated learning highlights",
+   "price": "$8 / person",
+   "category": "Learning",
+   "status": "active"
+  }
+ ],
+ "shop_owner": [
+  {
+   "id": "s1",
+   "name": "Organic Honey 500g",
+   "description": "Local cooperative honey",
+   "price": "$8",
+   "category": "Grocery",
+   "status": "active"
+  },
+  {
+   "id": "s2",
+   "name": "Handwoven Market Basket",
+   "description": "Artisan-made shopping basket",
+   "price": "$18",
+   "category": "Craft",
+   "status": "active"
+  },
+  {
+   "id": "s3",
+   "name": "Wireless Earbuds",
+   "description": "Bluetooth earbuds with case",
+   "price": "$45",
+   "category": "Electronics",
+   "status": "active"
+  },
+  {
+   "id": "s4",
+   "name": "Kitenge Wrap Dress",
+   "description": "Handmade Rwandan print dress",
+   "price": "$55",
+   "category": "Fashion",
+   "status": "paused"
+  }
+ ],
+ "spa_manager": [
+  {
+   "id": "sp1",
+   "name": "Relaxation Massage 60 min",
+   "description": "Full-body wellness massage",
+   "price": "$55",
+   "category": "Massage",
+   "status": "active"
+  },
+  {
+   "id": "sp2",
+   "name": "Sauna + Steam Package",
+   "description": "90-minute recovery circuit",
+   "price": "$40",
+   "category": "Sauna",
+   "status": "active"
+  },
+  {
+   "id": "sp3",
+   "name": "Hot Stone Therapy",
+   "description": "75-minute heated stone massage",
+   "price": "$85",
+   "category": "Massage",
+   "status": "active"
+  },
+  {
+   "id": "sp4",
+   "name": "Couples Treatment",
+   "description": "Side-by-side 90-minute session",
+   "price": "$140",
+   "category": "Package",
+   "status": "active"
+  }
+ ]
+}

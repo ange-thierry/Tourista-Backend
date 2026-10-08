@@ -1,0 +1,5225 @@
+{
+ "listings": {
+  "hotel": [
+   {
+    "id": 1,
+    "name": "Kigali Serena Hotel",
+    "location": "Kigali City",
+    "province": "Kigali",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "reviews": 342,
+    "pricePerNight": 280,
+    "category": "hotel",
+    "description": "A luxury hotel in the heart of Kigali offering world-class amenities and stunning city views.",
+    "amenities": [
+     "WiFi",
+     "Pool",
+     "Spa",
+     "Restaurant",
+     "Gym",
+     "Parking",
+     "Room Service",
+     "Conference Room",
+     "Bar"
+    ],
+    "roomTypes": [
+     "Deluxe Room",
+     "Executive Suite",
+     "Presidential Suite",
+     "Twin Deluxe",
+     "Family Connecting Rooms"
+    ],
+    "rooms": [
+     {
+      "id": "1-room-deluxe",
+      "name": "Deluxe Room",
+      "description": "Spacious city-view room with work desk, rainfall shower, and complimentary Wi‑Fi.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 280,
+      "capacity": 2,
+      "beds": "1 King bed",
+      "sizeSqm": 32,
+      "amenities": [
+       "WiFi",
+       "Room Service",
+       "Mini Bar",
+       "Safe",
+       "TV"
+      ],
+      "available": 6,
+      "total": 18
+     },
+     {
+      "id": "1-room-executive",
+      "name": "Executive Suite",
+      "description": "Separate living area, executive lounge access, and panoramic Kigali skyline views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 380,
+      "capacity": 3,
+      "beds": "1 King bed + sofa bed",
+      "sizeSqm": 48,
+      "amenities": [
+       "WiFi",
+       "Lounge Access",
+       "Bathrobe",
+       "Nespresso",
+       "Safe"
+      ],
+      "available": 3,
+      "total": 8
+     },
+     {
+      "id": "1-room-presidential",
+      "name": "Presidential Suite",
+      "description": "Top-floor suite with dining room, butler service option, and private terrace.",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 650,
+      "capacity": 4,
+      "beds": "1 King bed + twin room",
+      "sizeSqm": 96,
+      "amenities": [
+       "WiFi",
+       "Butler",
+       "Private Terrace",
+       "Dining Area",
+       "Jacuzzi"
+      ],
+      "available": 1,
+      "total": 2
+     },
+     {
+      "id": "1-room-twin",
+      "name": "Twin Deluxe",
+      "description": "Ideal for friends or colleagues — two twin beds with full deluxe amenities.",
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 260,
+      "capacity": 2,
+      "beds": "2 Twin beds",
+      "sizeSqm": 30,
+      "amenities": [
+       "WiFi",
+       "Room Service",
+       "Safe",
+       "TV",
+       "Desk"
+      ],
+      "available": 4,
+      "total": 10
+     },
+     {
+      "id": "1-room-family",
+      "name": "Family Connecting Rooms",
+      "description": "Two connecting deluxe rooms for families traveling together.",
+      "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 420,
+      "capacity": 5,
+      "beds": "1 King + 2 Twin",
+      "sizeSqm": 64,
+      "amenities": [
+       "WiFi",
+       "Connecting Door",
+       "Mini Bar",
+       "Kids Kit",
+       "Safe"
+      ],
+      "available": 2,
+      "total": 4
+     }
+    ],
+    "services": [
+     {
+      "id": "1-svc-spa",
+      "name": "Serena Spa",
+      "description": "Full-body massage, sauna, and wellness packages for hotel guests.",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80",
+      "price": 65,
+      "priceLabel": "from / session",
+      "category": "Wellness"
+     },
+     {
+      "id": "1-svc-dining",
+      "name": "Sokoni Restaurant",
+      "description": "International buffet breakfast and à la carte Rwandan & continental menus.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 38,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "1-svc-pool",
+      "name": "Outdoor Pool",
+      "description": "Heated outdoor pool with sun loungers and poolside drinks.",
+      "image": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "1-svc-gym",
+      "name": "Fitness Centre",
+      "description": "24-hour gym with cardio and strength equipment.",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Fitness"
+     },
+     {
+      "id": "1-svc-bar",
+      "name": "Horizon Bar",
+      "description": "Cocktails, coffee, and live evening ambience overlooking the city.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 15,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "1-svc-meeting",
+      "name": "Conference & Events",
+      "description": "Meeting rooms and banquet halls for weddings and corporate events.",
+      "image": "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=800&q=80",
+      "price": 220,
+      "priceLabel": "per half-day",
+      "category": "Business"
+     },
+     {
+      "id": "1-svc-shuttle",
+      "name": "Airport Shuttle",
+      "description": "Private hotel transfer to Kigali International Airport.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80",
+      "price": 45,
+      "priceLabel": "per trip",
+      "category": "Transport"
+     },
+     {
+      "id": "1-svc-roomservice",
+      "name": "24h Room Service",
+      "description": "In-room dining around the clock during your stay.",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
+      "price": 10,
+      "priceLabel": "service fee",
+      "category": "Dining"
+     }
+    ]
+   },
+   {
+    "id": 2,
+    "name": "Hotel des Mille Collines",
+    "location": "Kigali Downtown",
+    "province": "Kigali",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 289,
+    "pricePerNight": 220,
+    "category": "hotel",
+    "description": "Historic luxury hotel famous for its role in 'Hotel Rwanda', offering exceptional service and comfort.",
+    "amenities": [
+     "WiFi",
+     "Pool",
+     "Restaurant",
+     "Bar",
+     "Parking",
+     "Room Service",
+     "Garden",
+     "Terrace"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Superior Room",
+     "Suite"
+    ],
+    "rooms": [
+     {
+      "id": "2-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Hotel des Mille Collines with modern comforts and Kigali Downtown views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 220,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 24,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Restaurant",
+       "Bar",
+       "Parking"
+      ],
+      "available": 4,
+      "total": 6
+     },
+     {
+      "id": "2-room-2",
+      "name": "Superior Room",
+      "description": "Superior Room at Hotel des Mille Collines with modern comforts and Kigali Downtown views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 275,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 32,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Restaurant",
+       "Bar",
+       "Parking"
+      ],
+      "available": 7,
+      "total": 7
+     },
+     {
+      "id": "2-room-3",
+      "name": "Suite",
+      "description": "Suite at Hotel des Mille Collines with modern comforts and Kigali Downtown views.",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 341,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 40,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Restaurant",
+       "Bar",
+       "Parking"
+      ],
+      "available": 7,
+      "total": 8
+     }
+    ],
+    "services": [
+     {
+      "id": "2-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "2-svc-2",
+      "name": "Swimming Pool",
+      "description": "Access to the hotel pool and loungers.",
+      "image": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "2-svc-3",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "2-svc-4",
+      "name": "24h Room Service",
+      "description": "In-room dining delivered to your suite.",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
+      "price": 8,
+      "priceLabel": "service fee",
+      "category": "Dining"
+     },
+     {
+      "id": "2-svc-5",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "2-svc-6",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "2-svc-7",
+      "name": "Terrace Views",
+      "description": "Open terrace with panoramic outlooks.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 3,
+    "name": "Volcanoes Safaris Virunga Lodge",
+    "location": "Musanze",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.9,
+    "reviews": 156,
+    "pricePerNight": 450,
+    "category": "lodge",
+    "description": "Luxury eco-lodge with breathtaking views of the Virunga Mountains and Lake Bulera.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Bar",
+     "Garden",
+     "Terrace",
+     "Room Service"
+    ],
+    "roomTypes": [
+     "Luxury Banda",
+     "Family Banda"
+    ],
+    "rooms": [
+     {
+      "id": "3-room-1",
+      "name": "Luxury Banda",
+      "description": "Luxury Banda at Volcanoes Safaris Virunga Lodge with modern comforts and Musanze views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 698,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 25,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Garden",
+       "Terrace"
+      ],
+      "available": 7,
+      "total": 7
+     },
+     {
+      "id": "3-room-2",
+      "name": "Family Banda",
+      "description": "Family Banda at Volcanoes Safaris Virunga Lodge with modern comforts and Musanze views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 698,
+      "capacity": 4,
+      "beds": "2 King beds",
+      "sizeSqm": 33,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Garden",
+       "Terrace"
+      ],
+      "available": 7,
+      "total": 8
+     }
+    ],
+    "services": [
+     {
+      "id": "3-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "3-svc-2",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "3-svc-3",
+      "name": "24h Room Service",
+      "description": "In-room dining delivered to your suite.",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
+      "price": 8,
+      "priceLabel": "service fee",
+      "category": "Dining"
+     },
+     {
+      "id": "3-svc-4",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "3-svc-5",
+      "name": "Terrace Views",
+      "description": "Open terrace with panoramic outlooks.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 4,
+    "name": "Bisate Safari Lodge",
+    "location": "Musanze",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "reviews": 87,
+    "pricePerNight": 850,
+    "category": "lodge",
+    "description": "Ultra-luxury lodge offering unparalleled access to Volcanoes National Park and gorilla trekking.",
+    "amenities": [
+     "WiFi",
+     "Spa",
+     "Restaurant",
+     "Bar",
+     "Room Service",
+     "Garden"
+    ],
+    "roomTypes": [
+     "Forest Villa"
+    ],
+    "rooms": [
+     {
+      "id": "4-room-1",
+      "name": "Forest Villa",
+      "description": "Forest Villa at Bisate Safari Lodge with modern comforts and Musanze views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 1318,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 26,
+      "amenities": [
+       "WiFi",
+       "Spa",
+       "Restaurant",
+       "Bar",
+       "Room Service"
+      ],
+      "available": 7,
+      "total": 8
+     }
+    ],
+    "services": [
+     {
+      "id": "4-svc-1",
+      "name": "Spa & Wellness",
+      "description": "Massage, steam, and recovery treatments.",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80",
+      "price": 55,
+      "priceLabel": "from / session",
+      "category": "Wellness"
+     },
+     {
+      "id": "4-svc-2",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "4-svc-3",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "4-svc-4",
+      "name": "24h Room Service",
+      "description": "In-room dining delivered to your suite.",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
+      "price": 8,
+      "priceLabel": "service fee",
+      "category": "Dining"
+     },
+     {
+      "id": "4-svc-5",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 5,
+    "name": "Akagera Game Lodge",
+    "location": "Akagera National Park",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 134,
+    "pricePerNight": 180,
+    "category": "lodge",
+    "description": "Safari lodge located within Akagera National Park offering wildlife viewing opportunities.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Bar",
+     "Parking",
+     "Garden"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Family Room"
+    ],
+    "rooms": [
+     {
+      "id": "5-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Akagera Game Lodge with modern comforts and Akagera National Park views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 180,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 27,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Parking",
+       "Garden"
+      ],
+      "available": 2,
+      "total": 4
+     },
+     {
+      "id": "5-room-2",
+      "name": "Family Room",
+      "description": "Family Room at Akagera Game Lodge with modern comforts and Akagera National Park views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 243,
+      "capacity": 4,
+      "beds": "2 King beds",
+      "sizeSqm": 35,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Parking",
+       "Garden"
+      ],
+      "available": 5,
+      "total": 5
+     }
+    ],
+    "services": [
+     {
+      "id": "5-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "5-svc-2",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "5-svc-3",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "5-svc-4",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 6,
+    "name": "The Retreat by Heaven",
+    "location": "Kigali",
+    "province": "Kigali",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 198,
+    "pricePerNight": 160,
+    "category": "boutique",
+    "description": "Boutique hotel offering personalized service and modern amenities in a tranquil setting.",
+    "amenities": [
+     "WiFi",
+     "Pool",
+     "Restaurant",
+     "Spa",
+     "Gym",
+     "Parking",
+     "Garden"
+    ],
+    "roomTypes": [
+     "Deluxe Room",
+     "Executive Room",
+     "Suite"
+    ],
+    "rooms": [
+     {
+      "id": "6-room-1",
+      "name": "Deluxe Room",
+      "description": "Deluxe Room at The Retreat by Heaven with modern comforts and Kigali views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 200,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 22,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Restaurant",
+       "Spa",
+       "Gym"
+      ],
+      "available": 5,
+      "total": 5
+     },
+     {
+      "id": "6-room-2",
+      "name": "Executive Room",
+      "description": "Executive Room at The Retreat by Heaven with modern comforts and Kigali views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 200,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 30,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Restaurant",
+       "Spa",
+       "Gym"
+      ],
+      "available": 5,
+      "total": 6
+     },
+     {
+      "id": "6-room-3",
+      "name": "Suite",
+      "description": "Suite at The Retreat by Heaven with modern comforts and Kigali views.",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 248,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 38,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Restaurant",
+       "Spa",
+       "Gym"
+      ],
+      "available": 5,
+      "total": 7
+     }
+    ],
+    "services": [
+     {
+      "id": "6-svc-1",
+      "name": "Spa & Wellness",
+      "description": "Massage, steam, and recovery treatments.",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80",
+      "price": 55,
+      "priceLabel": "from / session",
+      "category": "Wellness"
+     },
+     {
+      "id": "6-svc-2",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "6-svc-3",
+      "name": "Swimming Pool",
+      "description": "Access to the hotel pool and loungers.",
+      "image": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "6-svc-4",
+      "name": "Fitness Center",
+      "description": "Fully equipped gym open to hotel guests.",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Fitness"
+     },
+     {
+      "id": "6-svc-5",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "6-svc-6",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 7,
+    "name": "Lake Kivu Serena Hotel",
+    "location": "Rubavu (Gisenyi)",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 167,
+    "pricePerNight": 200,
+    "category": "resort",
+    "description": "Lakeside resort hotel with stunning views of Lake Kivu and the Congo mountains.",
+    "amenities": [
+     "WiFi",
+     "Pool",
+     "Restaurant",
+     "Bar",
+     "Parking",
+     "Terrace",
+     "Room Service"
+    ],
+    "roomTypes": [
+     "Lake View Room",
+     "Superior Room",
+     "Family Room"
+    ],
+    "rooms": [
+     {
+      "id": "7-room-1",
+      "name": "Lake View Room",
+      "description": "Lake View Room at Lake Kivu Serena Hotel with modern comforts and Rubavu (Gisenyi) views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 200,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 23,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Restaurant",
+       "Bar",
+       "Parking"
+      ],
+      "available": 5,
+      "total": 6
+     },
+     {
+      "id": "7-room-2",
+      "name": "Superior Room",
+      "description": "Superior Room at Lake Kivu Serena Hotel with modern comforts and Rubavu (Gisenyi) views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 250,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 31,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Restaurant",
+       "Bar",
+       "Parking"
+      ],
+      "available": 5,
+      "total": 7
+     },
+     {
+      "id": "7-room-3",
+      "name": "Family Room",
+      "description": "Family Room at Lake Kivu Serena Hotel with modern comforts and Rubavu (Gisenyi) views.",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 270,
+      "capacity": 4,
+      "beds": "2 King beds",
+      "sizeSqm": 39,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Restaurant",
+       "Bar",
+       "Parking"
+      ],
+      "available": 8,
+      "total": 8
+     }
+    ],
+    "services": [
+     {
+      "id": "7-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "7-svc-2",
+      "name": "Swimming Pool",
+      "description": "Access to the hotel pool and loungers.",
+      "image": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "7-svc-3",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "7-svc-4",
+      "name": "24h Room Service",
+      "description": "In-room dining delivered to your suite.",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
+      "price": 8,
+      "priceLabel": "service fee",
+      "category": "Dining"
+     },
+     {
+      "id": "7-svc-5",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "7-svc-6",
+      "name": "Terrace Views",
+      "description": "Open terrace with panoramic outlooks.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 8,
+    "name": "Mantis Epic Safari Lodge",
+    "location": "Nyungwe Forest",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 92,
+    "pricePerNight": 320,
+    "category": "lodge",
+    "description": "Eco-luxury lodge situated on the edge of Nyungwe Forest National Park.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Bar",
+     "Spa",
+     "Garden",
+     "Room Service"
+    ],
+    "roomTypes": [
+     "Forest Villa",
+     "Canopy Suite"
+    ],
+    "rooms": [
+     {
+      "id": "8-room-1",
+      "name": "Forest Villa",
+      "description": "Forest Villa at Mantis Epic Safari Lodge with modern comforts and Nyungwe Forest views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 496,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 24,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Spa",
+       "Garden"
+      ],
+      "available": 5,
+      "total": 7
+     },
+     {
+      "id": "8-room-2",
+      "name": "Canopy Suite",
+      "description": "Canopy Suite at Mantis Epic Safari Lodge with modern comforts and Nyungwe Forest views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 496,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 32,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Spa",
+       "Garden"
+      ],
+      "available": 8,
+      "total": 8
+     }
+    ],
+    "services": [
+     {
+      "id": "8-svc-1",
+      "name": "Spa & Wellness",
+      "description": "Massage, steam, and recovery treatments.",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80",
+      "price": 55,
+      "priceLabel": "from / session",
+      "category": "Wellness"
+     },
+     {
+      "id": "8-svc-2",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "8-svc-3",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "8-svc-4",
+      "name": "24h Room Service",
+      "description": "In-room dining delivered to your suite.",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
+      "price": 8,
+      "priceLabel": "service fee",
+      "category": "Dining"
+     },
+     {
+      "id": "8-svc-5",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 9,
+    "name": "Marriott Hotel Kigali",
+    "location": "Kigali Business District",
+    "province": "Kigali",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 423,
+    "pricePerNight": 240,
+    "category": "hotel",
+    "description": "International luxury hotel offering business and leisure travelers premium accommodations.",
+    "amenities": [
+     "WiFi",
+     "Pool",
+     "Spa",
+     "Restaurant",
+     "Gym",
+     "Parking",
+     "Conference Room",
+     "Bar",
+     "Airport Shuttle"
+    ],
+    "roomTypes": [
+     "Guest Room",
+     "Executive Room",
+     "Suite",
+     "Presidential Suite"
+    ],
+    "rooms": [
+     {
+      "id": "9-room-1",
+      "name": "Guest Room",
+      "description": "Guest Room at Marriott Hotel Kigali with modern comforts and Kigali Business District views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 240,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 25,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Spa",
+       "Restaurant",
+       "Gym"
+      ],
+      "available": 8,
+      "total": 8
+     },
+     {
+      "id": "9-room-2",
+      "name": "Executive Room",
+      "description": "Executive Room at Marriott Hotel Kigali with modern comforts and Kigali Business District views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 300,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 33,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Spa",
+       "Restaurant",
+       "Gym"
+      ],
+      "available": 3,
+      "total": 4
+     },
+     {
+      "id": "9-room-3",
+      "name": "Suite",
+      "description": "Suite at Marriott Hotel Kigali with modern comforts and Kigali Business District views.",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 372,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 41,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Spa",
+       "Restaurant",
+       "Gym"
+      ],
+      "available": 3,
+      "total": 5
+     },
+     {
+      "id": "9-room-4",
+      "name": "Presidential Suite",
+      "description": "Presidential Suite at Marriott Hotel Kigali with modern comforts and Kigali Business District views.",
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 576,
+      "capacity": 4,
+      "beds": "2 King beds",
+      "sizeSqm": 49,
+      "amenities": [
+       "WiFi",
+       "Pool",
+       "Spa",
+       "Restaurant",
+       "Gym"
+      ],
+      "available": 6,
+      "total": 6
+     }
+    ],
+    "services": [
+     {
+      "id": "9-svc-1",
+      "name": "Spa & Wellness",
+      "description": "Massage, steam, and recovery treatments.",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80",
+      "price": 55,
+      "priceLabel": "from / session",
+      "category": "Wellness"
+     },
+     {
+      "id": "9-svc-2",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "9-svc-3",
+      "name": "Swimming Pool",
+      "description": "Access to the hotel pool and loungers.",
+      "image": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "9-svc-4",
+      "name": "Fitness Center",
+      "description": "Fully equipped gym open to hotel guests.",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Fitness"
+     },
+     {
+      "id": "9-svc-5",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "9-svc-6",
+      "name": "Meeting Rooms",
+      "description": "Bookable conference and event space.",
+      "image": "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=800&q=80",
+      "price": 180,
+      "priceLabel": "per half-day",
+      "category": "Business"
+     },
+     {
+      "id": "9-svc-7",
+      "name": "Airport Transfer",
+      "description": "Private transfer to/from Kigali International Airport.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80",
+      "price": 40,
+      "priceLabel": "per trip",
+      "category": "Transport"
+     },
+     {
+      "id": "9-svc-8",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     }
+    ]
+   },
+   {
+    "id": 10,
+    "name": "Gorilla Heights Lodge",
+    "location": "Ruhengeri",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "reviews": 76,
+    "pricePerNight": 150,
+    "category": "guesthouse",
+    "description": "Comfortable guesthouse perfect for gorilla trekking enthusiasts seeking authentic experiences.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Parking",
+     "Garden"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Twin Room",
+     "Family Room"
+    ],
+    "rooms": [
+     {
+      "id": "10-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Gorilla Heights Lodge with modern comforts and Ruhengeri views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 150,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 26,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Garden"
+      ],
+      "available": 3,
+      "total": 4
+     },
+     {
+      "id": "10-room-2",
+      "name": "Twin Room",
+      "description": "Twin Room at Gorilla Heights Lodge with modern comforts and Ruhengeri views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 150,
+      "capacity": 2,
+      "beds": "2 Twin beds",
+      "sizeSqm": 34,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Garden"
+      ],
+      "available": 3,
+      "total": 5
+     },
+     {
+      "id": "10-room-3",
+      "name": "Family Room",
+      "description": "Family Room at Gorilla Heights Lodge with modern comforts and Ruhengeri views.",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 203,
+      "capacity": 4,
+      "beds": "2 King beds",
+      "sizeSqm": 42,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Garden"
+      ],
+      "available": 6,
+      "total": 6
+     }
+    ],
+    "services": [
+     {
+      "id": "10-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "10-svc-2",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "10-svc-3",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 11,
+    "name": "Roadside Motel Kigali",
+    "location": "Kigali Airport Road",
+    "province": "Kigali",
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 3.8,
+    "reviews": 145,
+    "pricePerNight": 85,
+    "category": "motel",
+    "description": "Convenient motel offering comfortable stays for travelers and business visitors.",
+    "amenities": [
+     "WiFi",
+     "Parking",
+     "Restaurant",
+     "Airport Shuttle"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Twin Room"
+    ],
+    "rooms": [
+     {
+      "id": "11-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Roadside Motel Kigali with modern comforts and Kigali Airport Road views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 85,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 27,
+      "amenities": [
+       "WiFi",
+       "Parking",
+       "Restaurant",
+       "Airport Shuttle"
+      ],
+      "available": 3,
+      "total": 5
+     },
+     {
+      "id": "11-room-2",
+      "name": "Twin Room",
+      "description": "Twin Room at Roadside Motel Kigali with modern comforts and Kigali Airport Road views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 85,
+      "capacity": 2,
+      "beds": "2 Twin beds",
+      "sizeSqm": 35,
+      "amenities": [
+       "WiFi",
+       "Parking",
+       "Restaurant",
+       "Airport Shuttle"
+      ],
+      "available": 6,
+      "total": 6
+     }
+    ],
+    "services": [
+     {
+      "id": "11-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "11-svc-2",
+      "name": "Airport Transfer",
+      "description": "Private transfer to/from Kigali International Airport.",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80",
+      "price": 40,
+      "priceLabel": "per trip",
+      "category": "Transport"
+     },
+     {
+      "id": "11-svc-3",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     }
+    ]
+   },
+   {
+    "id": 12,
+    "name": "Express Motel Musanze",
+    "location": "Musanze Town",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 3.9,
+    "reviews": 98,
+    "pricePerNight": 75,
+    "category": "motel",
+    "description": "Budget-friendly motel perfect for visitors exploring Volcanoes National Park.",
+    "amenities": [
+     "WiFi",
+     "Parking",
+     "Restaurant"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Family Room"
+    ],
+    "rooms": [
+     {
+      "id": "12-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Express Motel Musanze with modern comforts and Musanze Town views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 75,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 22,
+      "amenities": [
+       "WiFi",
+       "Parking",
+       "Restaurant"
+      ],
+      "available": 6,
+      "total": 6
+     },
+     {
+      "id": "12-room-2",
+      "name": "Family Room",
+      "description": "Family Room at Express Motel Musanze with modern comforts and Musanze Town views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 101,
+      "capacity": 4,
+      "beds": "2 King beds",
+      "sizeSqm": 30,
+      "amenities": [
+       "WiFi",
+       "Parking",
+       "Restaurant"
+      ],
+      "available": 6,
+      "total": 7
+     }
+    ],
+    "services": [
+     {
+      "id": "12-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "12-svc-2",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     }
+    ]
+   },
+   {
+    "id": 13,
+    "name": "Cormoran Lodge",
+    "location": "Karongi (Kibuye)",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 112,
+    "pricePerNight": 195,
+    "category": "lodge",
+    "description": "Intimate lakeside lodge with panoramic views of Lake Kivu and private beach access.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Bar",
+     "Terrace",
+     "Garden",
+     "Parking"
+    ],
+    "roomTypes": [
+     "Lake View Room",
+     "Cottage"
+    ],
+    "rooms": [
+     {
+      "id": "13-room-1",
+      "name": "Lake View Room",
+      "description": "Lake View Room at Cormoran Lodge with modern comforts and Karongi (Kibuye) views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 195,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 23,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Terrace",
+       "Garden"
+      ],
+      "available": 6,
+      "total": 7
+     },
+     {
+      "id": "13-room-2",
+      "name": "Cottage",
+      "description": "Cottage at Cormoran Lodge with modern comforts and Karongi (Kibuye) views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 195,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 31,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Terrace",
+       "Garden"
+      ],
+      "available": 6,
+      "total": 8
+     }
+    ],
+    "services": [
+     {
+      "id": "13-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "13-svc-2",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "13-svc-3",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "13-svc-4",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "13-svc-5",
+      "name": "Terrace Views",
+      "description": "Open terrace with panoramic outlooks.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "name": "Huye Heritage Hotel",
+    "location": "Huye",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 128,
+    "pricePerNight": 110,
+    "category": "hotel",
+    "description": "Comfortable hotel near the National Museum, ideal for cultural travelers exploring southern Rwanda.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Parking",
+     "Conference Room",
+     "Garden"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Deluxe Room",
+     "Suite"
+    ],
+    "rooms": [
+     {
+      "id": "14-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Huye Heritage Hotel with modern comforts and Huye views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 110,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 24,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Conference Room",
+       "Garden"
+      ],
+      "available": 6,
+      "total": 8
+     },
+     {
+      "id": "14-room-2",
+      "name": "Deluxe Room",
+      "description": "Deluxe Room at Huye Heritage Hotel with modern comforts and Huye views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 138,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 32,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Conference Room",
+       "Garden"
+      ],
+      "available": 4,
+      "total": 4
+     },
+     {
+      "id": "14-room-3",
+      "name": "Suite",
+      "description": "Suite at Huye Heritage Hotel with modern comforts and Huye views.",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 171,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 40,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Conference Room",
+       "Garden"
+      ],
+      "available": 4,
+      "total": 5
+     }
+    ],
+    "services": [
+     {
+      "id": "14-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "14-svc-2",
+      "name": "Meeting Rooms",
+      "description": "Bookable conference and event space.",
+      "image": "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=800&q=80",
+      "price": 180,
+      "priceLabel": "per half-day",
+      "category": "Business"
+     },
+     {
+      "id": "14-svc-3",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "14-svc-4",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 15,
+    "name": "Rusizi River Lodge",
+    "location": "Rusizi",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "reviews": 64,
+    "pricePerNight": 140,
+    "category": "lodge",
+    "description": "Quiet riverside lodge near Nyungwe’s western gateway, popular with birders and hikers.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Garden",
+     "Parking",
+     "Terrace"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Family Banda"
+    ],
+    "rooms": [
+     {
+      "id": "15-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Rusizi River Lodge with modern comforts and Rusizi views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 140,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 25,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Garden",
+       "Parking",
+       "Terrace"
+      ],
+      "available": 4,
+      "total": 4
+     },
+     {
+      "id": "15-room-2",
+      "name": "Family Banda",
+      "description": "Family Banda at Rusizi River Lodge with modern comforts and Rusizi views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 217,
+      "capacity": 4,
+      "beds": "2 King beds",
+      "sizeSqm": 33,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Garden",
+       "Parking",
+       "Terrace"
+      ],
+      "available": 4,
+      "total": 5
+     }
+    ],
+    "services": [
+     {
+      "id": "15-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "15-svc-2",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "15-svc-3",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "15-svc-4",
+      "name": "Terrace Views",
+      "description": "Open terrace with panoramic outlooks.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 16,
+    "name": "Ubumwe Grande Hotel",
+    "location": "Muhanga",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.2,
+    "reviews": 95,
+    "pricePerNight": 95,
+    "category": "hotel",
+    "description": "Convenient stopover hotel on the Kigali–Huye corridor with solid amenities for business and leisure.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Parking",
+     "Bar",
+     "Conference Room"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Twin Room",
+     "Suite"
+    ],
+    "rooms": [
+     {
+      "id": "16-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Ubumwe Grande Hotel with modern comforts and Muhanga views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 95,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 26,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Bar",
+       "Conference Room"
+      ],
+      "available": 4,
+      "total": 5
+     },
+     {
+      "id": "16-room-2",
+      "name": "Twin Room",
+      "description": "Twin Room at Ubumwe Grande Hotel with modern comforts and Muhanga views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 95,
+      "capacity": 2,
+      "beds": "2 Twin beds",
+      "sizeSqm": 34,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Bar",
+       "Conference Room"
+      ],
+      "available": 4,
+      "total": 6
+     },
+     {
+      "id": "16-room-3",
+      "name": "Suite",
+      "description": "Suite at Ubumwe Grande Hotel with modern comforts and Muhanga views.",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 147,
+      "capacity": 3,
+      "beds": "1 King bed",
+      "sizeSqm": 42,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Bar",
+       "Conference Room"
+      ],
+      "available": 7,
+      "total": 7
+     }
+    ],
+    "services": [
+     {
+      "id": "16-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "16-svc-2",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "16-svc-3",
+      "name": "Meeting Rooms",
+      "description": "Bookable conference and event space.",
+      "image": "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=800&q=80",
+      "price": 180,
+      "priceLabel": "per half-day",
+      "category": "Business"
+     },
+     {
+      "id": "16-svc-4",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     }
+    ]
+   },
+   {
+    "id": 17,
+    "name": "Nyanza Royal Guesthouse",
+    "location": "Nyanza",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 71,
+    "pricePerNight": 120,
+    "category": "guesthouse",
+    "description": "Charming guesthouse near the King’s Palace Museum with authentic Rwandan hospitality.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Garden",
+     "Parking",
+     "Terrace"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Family Room"
+    ],
+    "rooms": [
+     {
+      "id": "17-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Nyanza Royal Guesthouse with modern comforts and Nyanza views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 120,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 27,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Garden",
+       "Parking",
+       "Terrace"
+      ],
+      "available": 4,
+      "total": 6
+     },
+     {
+      "id": "17-room-2",
+      "name": "Family Room",
+      "description": "Family Room at Nyanza Royal Guesthouse with modern comforts and Nyanza views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 162,
+      "capacity": 4,
+      "beds": "2 King beds",
+      "sizeSqm": 35,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Garden",
+       "Parking",
+       "Terrace"
+      ],
+      "available": 7,
+      "total": 7
+     }
+    ],
+    "services": [
+     {
+      "id": "17-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "17-svc-2",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "17-svc-3",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "17-svc-4",
+      "name": "Terrace Views",
+      "description": "Open terrace with panoramic outlooks.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 18,
+    "name": "Nyagatare Plains Inn",
+    "location": "Nyagatare",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.1,
+    "reviews": 58,
+    "pricePerNight": 80,
+    "category": "motel",
+    "description": "Practical base for travelers exploring eastern Rwanda’s cattle plains and border routes.",
+    "amenities": [
+     "WiFi",
+     "Parking",
+     "Restaurant"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Twin Room"
+    ],
+    "rooms": [
+     {
+      "id": "18-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Nyagatare Plains Inn with modern comforts and Nyagatare views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 80,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 22,
+      "amenities": [
+       "WiFi",
+       "Parking",
+       "Restaurant"
+      ],
+      "available": 7,
+      "total": 7
+     },
+     {
+      "id": "18-room-2",
+      "name": "Twin Room",
+      "description": "Twin Room at Nyagatare Plains Inn with modern comforts and Nyagatare views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 80,
+      "capacity": 2,
+      "beds": "2 Twin beds",
+      "sizeSqm": 30,
+      "amenities": [
+       "WiFi",
+       "Parking",
+       "Restaurant"
+      ],
+      "available": 7,
+      "total": 8
+     }
+    ],
+    "services": [
+     {
+      "id": "18-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "18-svc-2",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     }
+    ]
+   },
+   {
+    "id": 19,
+    "name": "Ruzizi Tented Lodge",
+    "location": "Akagera National Park",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 143,
+    "pricePerNight": 380,
+    "category": "lodge",
+    "description": "Luxury tented camp on Lake Ihema with guided safari experiences and lakeside dining.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Bar",
+     "Garden",
+     "Room Service",
+     "Terrace"
+    ],
+    "roomTypes": [
+     "Luxury Tent",
+     "Family Tent"
+    ],
+    "rooms": [
+     {
+      "id": "19-room-1",
+      "name": "Luxury Tent",
+      "description": "Luxury Tent at Ruzizi Tented Lodge with modern comforts and Akagera National Park views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 380,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 23,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Garden",
+       "Room Service"
+      ],
+      "available": 7,
+      "total": 8
+     },
+     {
+      "id": "19-room-2",
+      "name": "Family Tent",
+      "description": "Family Tent at Ruzizi Tented Lodge with modern comforts and Akagera National Park views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 513,
+      "capacity": 4,
+      "beds": "2 King beds",
+      "sizeSqm": 31,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Bar",
+       "Garden",
+       "Room Service"
+      ],
+      "available": 2,
+      "total": 4
+     }
+    ],
+    "services": [
+     {
+      "id": "19-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "19-svc-2",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "19-svc-3",
+      "name": "24h Room Service",
+      "description": "In-room dining delivered to your suite.",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
+      "price": 8,
+      "priceLabel": "service fee",
+      "category": "Dining"
+     },
+     {
+      "id": "19-svc-4",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     },
+     {
+      "id": "19-svc-5",
+      "name": "Terrace Views",
+      "description": "Open terrace with panoramic outlooks.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   },
+   {
+    "id": 20,
+    "name": "Byumba Hills Hotel",
+    "location": "Gicumbi",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.2,
+    "reviews": 67,
+    "pricePerNight": 90,
+    "category": "hotel",
+    "description": "Hilltop hotel with cool mountain air and easy access to northern Rwanda’s tea estates.",
+    "amenities": [
+     "WiFi",
+     "Restaurant",
+     "Parking",
+     "Garden",
+     "Bar"
+    ],
+    "roomTypes": [
+     "Standard Room",
+     "Deluxe Room"
+    ],
+    "rooms": [
+     {
+      "id": "20-room-1",
+      "name": "Standard Room",
+      "description": "Standard Room at Byumba Hills Hotel with modern comforts and Gicumbi views.",
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 90,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 24,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Garden",
+       "Bar"
+      ],
+      "available": 2,
+      "total": 4
+     },
+     {
+      "id": "20-room-2",
+      "name": "Deluxe Room",
+      "description": "Deluxe Room at Byumba Hills Hotel with modern comforts and Gicumbi views.",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=800&q=80",
+      "pricePerNight": 113,
+      "capacity": 2,
+      "beds": "1 Queen bed",
+      "sizeSqm": 32,
+      "amenities": [
+       "WiFi",
+       "Restaurant",
+       "Parking",
+       "Garden",
+       "Bar"
+      ],
+      "available": 5,
+      "total": 5
+     }
+    ],
+    "services": [
+     {
+      "id": "20-svc-1",
+      "name": "Fine Dining",
+      "description": "Breakfast, lunch, and dinner at the hotel restaurant.",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "price": 35,
+      "priceLabel": "avg / person",
+      "category": "Dining"
+     },
+     {
+      "id": "20-svc-2",
+      "name": "Lounge Bar",
+      "description": "Cocktails, coffee, and evening social space.",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80",
+      "price": 12,
+      "priceLabel": "from / drink",
+      "category": "Dining"
+     },
+     {
+      "id": "20-svc-3",
+      "name": "Secure Parking",
+      "description": "On-site guest parking.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Facilities"
+     },
+     {
+      "id": "20-svc-4",
+      "name": "Garden Access",
+      "description": "Landscaped gardens and outdoor seating.",
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "price": 0,
+      "priceLabel": "included",
+      "category": "Leisure"
+     }
+    ]
+   }
+  ],
+  "destination": [
+   {
+    "id": 1,
+    "name": "Volcanoes National Park",
+    "location": "Musanze, Northern Province",
+    "province": "northern",
+    "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.9,
+    "reviews": 2847,
+    "price": 1500,
+    "category": "parks",
+    "description": "Home to endangered mountain gorillas and golden monkeys in the misty mountains of Rwanda.",
+    "highlights": [
+     "Gorilla Trekking",
+     "Golden Monkey Tours",
+     "Volcano Hiking",
+     "Bird Watching",
+     "Cultural Villages"
+    ],
+    "duration": "1-3 Days",
+    "maxGroupSize": 8
+   },
+   {
+    "id": 2,
+    "name": "Lake Kivu",
+    "location": "Gisenyi, Western Province",
+    "province": "western",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.8,
+    "reviews": 1923,
+    "price": 800,
+    "category": "lakes",
+    "description": "One of Africa's Great Lakes offering stunning scenery and water activities.",
+    "highlights": [
+     "Water Sports",
+     "Island Hopping",
+     "Beach Resorts",
+     "Boat Tours",
+     "Fishing"
+    ],
+    "duration": "2-5 Days",
+    "maxGroupSize": 15
+   },
+   {
+    "id": 3,
+    "name": "Nyungwe Forest National Park",
+    "location": "Nyamagabe, Southern Province",
+    "province": "southern",
+    "image": "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.7,
+    "reviews": 1456,
+    "price": 600,
+    "category": "parks",
+    "description": "Ancient montane rainforest with canopy walks and diverse wildlife including chimpanzees.",
+    "highlights": [
+     "Canopy Walk",
+     "Chimpanzee Tracking",
+     "Bird Watching",
+     "Nature Trails",
+     "Waterfall Hikes"
+    ],
+    "duration": "1-4 Days",
+    "maxGroupSize": 12
+   },
+   {
+    "id": 4,
+    "name": "Kigali City Tour",
+    "location": "Kigali, Kigali City",
+    "province": "kigali",
+    "image": "https://images.unsplash.com/photo-1433832597046-4f10e10ac764?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.6,
+    "reviews": 3421,
+    "price": 200,
+    "category": "cities",
+    "description": "Explore Rwanda's vibrant capital city with its rich history and modern development.",
+    "highlights": [
+     "Genocide Memorial",
+     "Local Markets",
+     "City Skyline",
+     "Cultural Centers",
+     "Modern Architecture"
+    ],
+    "duration": "4-8 Hours",
+    "maxGroupSize": 20
+   },
+   {
+    "id": 5,
+    "name": "Akagera National Park",
+    "location": "Kayonza, Eastern Province",
+    "province": "eastern",
+    "image": "https://images.unsplash.com/photo-1466721591366-2d5fba72006d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.5,
+    "reviews": 987,
+    "price": 900,
+    "category": "parks",
+    "description": "Rwanda's only savanna park featuring the Big Five and stunning landscapes.",
+    "highlights": [
+     "Big Five Safari",
+     "Boat Safari",
+     "Game Drives",
+     "Lion Tracking",
+     "Photography"
+    ],
+    "duration": "1-3 Days",
+    "maxGroupSize": 10
+   },
+   {
+    "id": 6,
+    "name": "Gishwati-Mukura National Park",
+    "location": "Rutsiro, Western Province",
+    "province": "western",
+    "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.4,
+    "reviews": 234,
+    "price": 400,
+    "category": "parks",
+    "description": "Rwanda's newest national park featuring restored forests and unique biodiversity.",
+    "highlights": [
+     "Forest Restoration",
+     "Monkey Tracking",
+     "Community Tourism",
+     "Eco-lodges",
+     "Conservation"
+    ],
+    "duration": "1-2 Days",
+    "maxGroupSize": 8
+   },
+   {
+    "id": 7,
+    "name": "King's Palace Museum",
+    "location": "Nyanza, Southern Province",
+    "province": "southern",
+    "image": "https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.3,
+    "reviews": 876,
+    "price": 150,
+    "category": "cultural",
+    "description": "Traditional royal residence showcasing Rwanda's ancient monarchy and culture.",
+    "highlights": [
+     "Royal History",
+     "Traditional Architecture",
+     "Cultural Performances",
+     "Cattle Breeding",
+     "Artifacts"
+    ],
+    "duration": "2-4 Hours",
+    "maxGroupSize": 25
+   },
+   {
+    "id": 8,
+    "name": "Lake Muhazi",
+    "location": "Rwamagana, Eastern Province",
+    "province": "eastern",
+    "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.2,
+    "reviews": 543,
+    "price": 300,
+    "category": "lakes",
+    "description": "Scenic lake perfect for water sports and relaxation near Kigali.",
+    "highlights": [
+     "Water Sports",
+     "Fishing",
+     "Resort Stays",
+     "Bird Watching",
+     "Boating"
+    ],
+    "duration": "1-2 Days",
+    "maxGroupSize": 18
+   },
+   {
+    "id": 9,
+    "name": "Musanze Caves",
+    "location": "Musanze, Northern Province",
+    "province": "northern",
+    "image": "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.1,
+    "reviews": 321,
+    "price": 100,
+    "category": "adventure",
+    "description": "Fascinating underground cave system formed by volcanic activity.",
+    "highlights": [
+     "Cave Exploration",
+     "Geological Tours",
+     "Underground Rivers",
+     "Bat Watching",
+     "Photography"
+    ],
+    "duration": "2-3 Hours",
+    "maxGroupSize": 15
+   },
+   {
+    "id": 10,
+    "name": "Rusumo Falls",
+    "location": "Kirehe, Eastern Province",
+    "province": "eastern",
+    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4,
+    "reviews": 234,
+    "price": 250,
+    "category": "adventure",
+    "description": "Spectacular waterfalls on the Kagera River at the border with Tanzania.",
+    "highlights": [
+     "Waterfall Views",
+     "River Activities",
+     "Border Culture",
+     "Photography",
+     "Picnicking"
+    ],
+    "duration": "Half Day",
+    "maxGroupSize": 20
+   },
+   {
+    "id": 11,
+    "name": "Huye Mountain Coffee Tour",
+    "location": "Huye, Southern Province",
+    "province": "southern",
+    "image": "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    "rating": 4.6,
+    "reviews": 567,
+    "price": 180,
+    "category": "cultural",
+    "description": "Experience Rwanda's world-renowned coffee culture from bean to cup.",
+    "highlights": [
+     "Coffee Plantation",
+     "Roasting Process",
+     "Tasting Sessions",
+     "Local Culture",
+     "Scenic Views"
+    ],
+    "duration": "3-5 Hours",
+    "maxGroupSize": 12
+   }
+  ],
+  "park": [
+   {
+    "id": 1,
+    "name": "Volcanoes National Park",
+    "location": "Musanze",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.9,
+    "reviews": 342,
+    "entryFee": 1500,
+    "category": "national-park",
+    "description": "Home to the endangered mountain gorillas and golden monkeys, offering world-class trekking experiences.",
+    "activities": [
+     "Gorilla Trekking",
+     "Golden Monkey Tracking",
+     "Hiking",
+     "Bird Watching",
+     "Cultural Tours"
+    ],
+    "wildlife": [
+     "Mountain Gorillas",
+     "Golden Monkeys",
+     "Forest Elephants",
+     "Various Bird Species"
+    ],
+    "bestTimeToVisit": "June to September, December to February",
+    "area": "160 sq km",
+    "established": "1925"
+   },
+   {
+    "id": 2,
+    "name": "Akagera National Park",
+    "location": "Eastern Province",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 289,
+    "entryFee": 50,
+    "category": "national-park",
+    "description": "Rwanda's only savanna park featuring the Big Five and diverse ecosystems from wetlands to mountains.",
+    "activities": [
+     "Game Drives",
+     "Boat Safaris",
+     "Fishing",
+     "Bird Watching",
+     "Walking Safaris",
+     "Night Drives"
+    ],
+    "wildlife": [
+     "Lions",
+     "Elephants",
+     "Rhinos",
+     "Leopards",
+     "Buffalos",
+     "Giraffes",
+     "Zebras",
+     "Hippos"
+    ],
+    "bestTimeToVisit": "June to September",
+    "area": "1,122 sq km",
+    "established": "1934"
+   },
+   {
+    "id": 3,
+    "name": "Nyungwe Forest National Park",
+    "location": "Southwestern Rwanda",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "reviews": 187,
+    "entryFee": 100,
+    "category": "national-park",
+    "description": "Ancient montane rainforest with canopy walks, chimpanzee tracking, and incredible biodiversity.",
+    "activities": [
+     "Chimpanzee Tracking",
+     "Canopy Walk",
+     "Colobus Monkey Tracking",
+     "Bird Watching",
+     "Hiking",
+     "Waterfall Tours"
+    ],
+    "wildlife": [
+     "Chimpanzees",
+     "Colobus Monkeys",
+     "L'Hoest's Monkeys",
+     "Over 300 Bird Species"
+    ],
+    "bestTimeToVisit": "May to October",
+    "area": "1,019 sq km",
+    "established": "2004"
+   },
+   {
+    "id": 4,
+    "name": "Gishwati-Mukura National Park",
+    "location": "Western Rwanda",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 156,
+    "entryFee": 75,
+    "category": "national-park",
+    "description": "Rwanda's newest national park featuring restored forests and diverse primate species.",
+    "activities": [
+     "Primate Tracking",
+     "Nature Walks",
+     "Bird Watching",
+     "Community Tours",
+     "Forest Restoration Activities"
+    ],
+    "wildlife": [
+     "Golden Monkeys",
+     "Blue Monkeys",
+     "L'Hoest's Monkeys",
+     "Various Bird Species"
+    ],
+    "bestTimeToVisit": "June to September, December to February",
+    "area": "34 sq km",
+    "established": "2015"
+   },
+   {
+    "id": 5,
+    "name": "Lake Kivu",
+    "location": "Western Rwanda",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 198,
+    "entryFee": 0,
+    "category": "lake",
+    "description": "One of Africa's Great Lakes offering water sports, beach relaxation, and stunning scenery.",
+    "activities": [
+     "Swimming",
+     "Kayaking",
+     "Boat Tours",
+     "Fishing",
+     "Beach Relaxation",
+     "Island Hopping"
+    ],
+    "wildlife": [
+     "Various Fish Species",
+     "Water Birds"
+    ],
+    "bestTimeToVisit": "Year-round",
+    "area": "2,700 sq km",
+    "established": "Natural Lake"
+   },
+   {
+    "id": 6,
+    "name": "Huye Mountain",
+    "location": "Huye",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "reviews": 145,
+    "entryFee": 25,
+    "category": "mountain",
+    "description": "Beautiful mountain offering hiking trails and panoramic views of southern Rwanda.",
+    "activities": [
+     "Hiking",
+     "Mountain Climbing",
+     "Photography",
+     "Nature Walks",
+     "Cultural Tours"
+    ],
+    "wildlife": [
+     "Various Bird Species",
+     "Small Mammals"
+    ],
+    "bestTimeToVisit": "May to October",
+    "area": "15 sq km",
+    "established": "Protected Area"
+   }
+  ],
+  "restaurant": [
+   {
+    "id": 1,
+    "name": "Repub Lounge",
+    "location": "Kigali",
+    "province": "Kigali City",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "reviews": 245,
+    "priceRange": "$$$",
+    "category": "Fine Dining",
+    "description": "Upscale dining experience with modern African cuisine and stunning city views.",
+    "cuisine": [
+     "African",
+     "International",
+     "Contemporary"
+    ],
+    "amenities": [
+     "Air Conditioning",
+     "WiFi",
+     "Parking",
+     "Live Music",
+     "Bar"
+    ],
+    "openingHours": "11:00 AM - 11:00 PM",
+    "contact": "+250 788 123 456",
+    "averageCost": 25000
+   },
+   {
+    "id": 2,
+    "name": "Mama's Kitchen",
+    "location": "Musanze",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 189,
+    "priceRange": "$$",
+    "category": "Local Cuisine",
+    "description": "Authentic Rwandan dishes prepared with traditional recipes and local ingredients.",
+    "cuisine": [
+     "Rwandan",
+     "Traditional",
+     "Organic"
+    ],
+    "amenities": [
+     "WiFi",
+     "Parking",
+     "Garden Seating"
+    ],
+    "openingHours": "7:00 AM - 9:00 PM",
+    "contact": "+250 788 234 567",
+    "averageCost": 8000
+   },
+   {
+    "id": 3,
+    "name": "Bourbon Coffee",
+    "location": "Kigali",
+    "province": "Kigali City",
+    "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 312,
+    "priceRange": "$",
+    "category": "Cafes",
+    "description": "Premium Rwandan coffee with light meals and pastries in a cozy atmosphere.",
+    "cuisine": [
+     "Coffee",
+     "Pastries",
+     "Light Meals"
+    ],
+    "amenities": [
+     "WiFi",
+     "Air Conditioning",
+     "Takeaway"
+    ],
+    "openingHours": "6:00 AM - 8:00 PM",
+    "contact": "+250 788 345 678",
+    "averageCost": 3500
+   },
+   {
+    "id": 4,
+    "name": "Flame Tree Restaurant",
+    "location": "Butare",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 156,
+    "priceRange": "$$",
+    "category": "Casual Dining",
+    "description": "Family-friendly restaurant offering a mix of international and local dishes.",
+    "cuisine": [
+     "International",
+     "African",
+     "Vegetarian"
+    ],
+    "amenities": [
+     "WiFi",
+     "Parking",
+     "Family Friendly",
+     "Garden"
+    ],
+    "openingHours": "10:00 AM - 10:00 PM",
+    "contact": "+250 788 456 789",
+    "averageCost": 12000
+   },
+   {
+    "id": 5,
+    "name": "Quick Bite",
+    "location": "Rubavu",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.2,
+    "reviews": 89,
+    "priceRange": "$",
+    "category": "Fast Food",
+    "description": "Quick service restaurant with burgers, fries, and local fast food options.",
+    "cuisine": [
+     "Fast Food",
+     "Burgers",
+     "Local Snacks"
+    ],
+    "amenities": [
+     "Takeaway",
+     "Delivery",
+     "WiFi"
+    ],
+    "openingHours": "8:00 AM - 10:00 PM",
+    "contact": "+250 788 567 890",
+    "averageCost": 5000
+   },
+   {
+    "id": 6,
+    "name": "Lake Kivu Fish House",
+    "location": "Karongi",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 142,
+    "priceRange": "$$",
+    "category": "Casual Dining",
+    "description": "Fresh tilapia and sambaza dishes served lakeside with sunset views over Lake Kivu.",
+    "cuisine": [
+     "Rwandan",
+     "Seafood",
+     "Traditional"
+    ],
+    "amenities": [
+     "WiFi",
+     "Parking",
+     "Terrace",
+     "Lake View"
+    ],
+    "openingHours": "10:00 AM - 10:00 PM",
+    "contact": "+250 788 678 901",
+    "averageCost": 14000
+   },
+   {
+    "id": 7,
+    "name": "Inzozi Café",
+    "location": "Huye",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 118,
+    "priceRange": "$",
+    "category": "Cafes",
+    "description": "Student-friendly café near the university serving specialty coffee and light Rwandan meals.",
+    "cuisine": [
+     "Coffee",
+     "Pastries",
+     "Rwandan"
+    ],
+    "amenities": [
+     "WiFi",
+     "Takeaway",
+     "Outdoor Seating"
+    ],
+    "openingHours": "7:00 AM - 9:00 PM",
+    "contact": "+250 788 789 012",
+    "averageCost": 4000
+   },
+   {
+    "id": 8,
+    "name": "Volcano View Restaurant",
+    "location": "Musanze",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 201,
+    "priceRange": "$$$",
+    "category": "Fine Dining",
+    "description": "Elevated dining with mountain views, perfect after a day of gorilla trekking.",
+    "cuisine": [
+     "International",
+     "African",
+     "Contemporary"
+    ],
+    "amenities": [
+     "WiFi",
+     "Parking",
+     "Bar",
+     "Terrace",
+     "Air Conditioning"
+    ],
+    "openingHours": "12:00 PM - 10:00 PM",
+    "contact": "+250 788 890 123",
+    "averageCost": 28000
+   },
+   {
+    "id": 9,
+    "name": "Igitaramo Grill",
+    "location": "Muhanga",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "reviews": 96,
+    "priceRange": "$$",
+    "category": "Local Cuisine",
+    "description": "Lively grill house known for brochettes, isombe, and live weekend entertainment.",
+    "cuisine": [
+     "Rwandan",
+     "Traditional",
+     "Grill"
+    ],
+    "amenities": [
+     "Parking",
+     "Live Music",
+     "Garden Seating"
+    ],
+    "openingHours": "11:00 AM - 11:00 PM",
+    "contact": "+250 788 901 234",
+    "averageCost": 9000
+   },
+   {
+    "id": 10,
+    "name": "Akagera Safari Boma",
+    "location": "Kayonza",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 87,
+    "priceRange": "$$",
+    "category": "Casual Dining",
+    "description": "Safari-style boma meals with grilled meats and eastern Rwanda flavors near Akagera.",
+    "cuisine": [
+     "African",
+     "Grill",
+     "International"
+    ],
+    "amenities": [
+     "Parking",
+     "Garden",
+     "Family Friendly"
+    ],
+    "openingHours": "7:00 AM - 9:00 PM",
+    "contact": "+250 788 012 345",
+    "averageCost": 15000
+   },
+   {
+    "id": 11,
+    "name": "Rusizi Border Bites",
+    "location": "Rusizi",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.1,
+    "reviews": 64,
+    "priceRange": "$",
+    "category": "Fast Food",
+    "description": "Quick, affordable meals for travelers heading to Nyungwe or crossing toward the Congo border.",
+    "cuisine": [
+     "Fast Food",
+     "Local Snacks",
+     "Burgers"
+    ],
+    "amenities": [
+     "Takeaway",
+     "Parking",
+     "WiFi"
+    ],
+    "openingHours": "6:00 AM - 10:00 PM",
+    "contact": "+250 788 123 890",
+    "averageCost": 4500
+   },
+   {
+    "id": 12,
+    "name": "Royal Court Kitchen",
+    "location": "Nyanza",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 109,
+    "priceRange": "$$",
+    "category": "Local Cuisine",
+    "description": "Traditional royal-inspired dishes celebrating southern Rwanda’s culinary heritage.",
+    "cuisine": [
+     "Rwandan",
+     "Traditional",
+     "Organic"
+    ],
+    "amenities": [
+     "WiFi",
+     "Garden Seating",
+     "Cultural Shows"
+    ],
+    "openingHours": "9:00 AM - 9:00 PM",
+    "contact": "+250 788 234 901",
+    "averageCost": 11000
+   },
+   {
+    "id": 13,
+    "name": "Nyagatare Dairy Café",
+    "location": "Nyagatare",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "reviews": 72,
+    "priceRange": "$",
+    "category": "Cafes",
+    "description": "Farm-to-table café featuring fresh dairy, yogurt drinks, and eastern highland coffee.",
+    "cuisine": [
+     "Coffee",
+     "Dairy",
+     "Light Meals"
+    ],
+    "amenities": [
+     "WiFi",
+     "Takeaway",
+     "Parking"
+    ],
+    "openingHours": "6:30 AM - 7:00 PM",
+    "contact": "+250 788 345 012",
+    "averageCost": 3500
+   }
+  ],
+  "transport": [
+   {
+    "id": 1,
+    "name": "Rwanda Tours Transport",
+    "location": "Kigali",
+    "province": "Kigali City",
+    "image": "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 198,
+    "pricePerDay": 45000,
+    "category": "Car Rental",
+    "description": "Premium car rental service with modern vehicles and professional drivers.",
+    "services": [
+     "Car Rental",
+     "Driver Service",
+     "Airport Transfer",
+     "Tour Packages"
+    ],
+    "vehicleTypes": [
+     "SUV",
+     "Sedan",
+     "Minibus",
+     "4WD"
+    ],
+    "coverage": "Nationwide",
+    "contact": "+250 788 111 222",
+    "availability": "24/7"
+   },
+   {
+    "id": 2,
+    "name": "Kigali Bus Services",
+    "location": "Kigali",
+    "province": "Kigali City",
+    "image": "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "reviews": 567,
+    "pricePerDay": 15000,
+    "category": "Public Transport",
+    "description": "Reliable public bus service connecting major cities and towns across Rwanda.",
+    "services": [
+     "City Bus",
+     "Intercity Bus",
+     "Express Service"
+    ],
+    "vehicleTypes": [
+     "City Bus",
+     "Coach",
+     "Express Bus"
+    ],
+    "coverage": "Major Cities",
+    "contact": "+250 788 222 333",
+    "availability": "5:00 AM - 10:00 PM"
+   },
+   {
+    "id": 3,
+    "name": "Moto Connect",
+    "location": "Kigali",
+    "province": "Kigali City",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 423,
+    "pricePerDay": 8000,
+    "category": "Motorcycle Taxi",
+    "description": "Quick and affordable motorcycle taxi service for city transportation.",
+    "services": [
+     "City Transport",
+     "Delivery",
+     "Quick Rides"
+    ],
+    "vehicleTypes": [
+     "Motorcycle"
+    ],
+    "coverage": "Kigali City",
+    "contact": "+250 788 333 444",
+    "availability": "24/7"
+   },
+   {
+    "id": 4,
+    "name": "Air Rwanda Express",
+    "location": "Kigali",
+    "province": "Kigali City",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "reviews": 89,
+    "pricePerDay": 150000,
+    "category": "Air Transport",
+    "description": "Domestic flights and charter services to major destinations within Rwanda.",
+    "services": [
+     "Domestic Flights",
+     "Charter",
+     "Scenic Tours"
+    ],
+    "vehicleTypes": [
+     "Small Aircraft",
+     "Helicopter"
+    ],
+    "coverage": "Major Airports",
+    "contact": "+250 788 444 555",
+    "availability": "6:00 AM - 8:00 PM"
+   },
+   {
+    "id": 5,
+    "name": "Bike Rwanda",
+    "location": "Musanze",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 234,
+    "pricePerDay": 3000,
+    "category": "Bicycle Rental",
+    "description": "Eco-friendly bicycle rental for exploring Rwanda's beautiful landscapes.",
+    "services": [
+     "Bike Rental",
+     "Guided Tours",
+     "Mountain Biking"
+    ],
+    "vehicleTypes": [
+     "Mountain Bike",
+     "City Bike",
+     "E-Bike"
+    ],
+    "coverage": "Tourist Areas",
+    "contact": "+250 788 555 666",
+    "availability": "7:00 AM - 6:00 PM"
+   },
+   {
+    "id": 6,
+    "name": "Virunga Safari Transfers",
+    "location": "Musanze",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "reviews": 176,
+    "pricePerDay": 55000,
+    "category": "Car Rental",
+    "description": "Specialized transfers and 4WD rentals for gorilla trekking and Volcanoes National Park.",
+    "services": [
+     "Park Transfers",
+     "Driver-Guide",
+     "Hotel Pickup",
+     "Luggage Support"
+    ],
+    "vehicleTypes": [
+     "4WD",
+     "SUV",
+     "Minibus"
+    ],
+    "coverage": "Northern Province",
+    "contact": "+250 788 666 111",
+    "availability": "5:00 AM - 8:00 PM"
+   },
+   {
+    "id": 7,
+    "name": "Lake Kivu Boat & Taxi",
+    "location": "Rubavu",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 152,
+    "pricePerDay": 35000,
+    "category": "Public Transport",
+    "description": "Boat transfers and lakeside taxis linking Rubavu, Karongi, and nearby islands.",
+    "services": [
+     "Boat Transfer",
+     "Island Hopping",
+     "Airport Shuttle",
+     "City Taxi"
+    ],
+    "vehicleTypes": [
+     "Speedboat",
+     "Sedan",
+     "Minibus"
+    ],
+    "coverage": "Lake Kivu Shoreline",
+    "contact": "+250 788 777 222",
+    "availability": "6:00 AM - 7:00 PM"
+   },
+   {
+    "id": 8,
+    "name": "Huye Express Coaches",
+    "location": "Huye",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1544620341-1adc1baa8cce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 289,
+    "pricePerDay": 12000,
+    "category": "Public Transport",
+    "description": "Comfortable coaches connecting Huye, Nyanza, Muhanga, and Kigali throughout the day.",
+    "services": [
+     "Intercity Bus",
+     "Express Service",
+     "Parcel Delivery"
+    ],
+    "vehicleTypes": [
+     "Coach",
+     "Express Bus"
+    ],
+    "coverage": "Southern Corridor",
+    "contact": "+250 788 888 333",
+    "availability": "5:00 AM - 9:00 PM"
+   },
+   {
+    "id": 9,
+    "name": "Akagera Game Drive Fleet",
+    "location": "Kayonza",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 134,
+    "pricePerDay": 70000,
+    "category": "Car Rental",
+    "description": "Open-sided safari vehicles and private game-drive packages for Akagera National Park.",
+    "services": [
+     "Game Drives",
+     "Park Entry Support",
+     "Driver-Guide",
+     "Picnic Kits"
+    ],
+    "vehicleTypes": [
+     "Safari Land Cruiser",
+     "4WD"
+    ],
+    "coverage": "Akagera & Eastern Province",
+    "contact": "+250 788 999 444",
+    "availability": "5:30 AM - 6:30 PM"
+   },
+   {
+    "id": 10,
+    "name": "Karongi Lakeside Motos",
+    "location": "Karongi",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "reviews": 98,
+    "pricePerDay": 6000,
+    "category": "Motorcycle Taxi",
+    "description": "Local moto taxis for short hops around Karongi town and lakeside lodges.",
+    "services": [
+     "City Transport",
+     "Lodge Transfers",
+     "Quick Rides"
+    ],
+    "vehicleTypes": [
+     "Motorcycle"
+    ],
+    "coverage": "Karongi District",
+    "contact": "+250 788 101 555",
+    "availability": "6:00 AM - 10:00 PM"
+   },
+   {
+    "id": 11,
+    "name": "Nyungwe Canopy Transfers",
+    "location": "Rusizi",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 81,
+    "pricePerDay": 48000,
+    "category": "Car Rental",
+    "description": "Reliable transfers between Rusizi, Nyungwe Forest lodges, and the canopy walk trailheads.",
+    "services": [
+     "Lodge Transfers",
+     "Trailhead Drop-off",
+     "Driver Service"
+    ],
+    "vehicleTypes": [
+     "4WD",
+     "SUV"
+    ],
+    "coverage": "Nyungwe Corridor",
+    "contact": "+250 788 202 666",
+    "availability": "5:00 AM - 7:00 PM"
+   },
+   {
+    "id": 12,
+    "name": "Gicumbi Highland Bikes",
+    "location": "Gicumbi",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 67,
+    "pricePerDay": 3500,
+    "category": "Bicycle Rental",
+    "description": "Mountain bike rentals for tea plantation routes and highland trails around Gicumbi.",
+    "services": [
+     "Bike Rental",
+     "Guided Tours",
+     "Helmet Hire"
+    ],
+    "vehicleTypes": [
+     "Mountain Bike",
+     "E-Bike"
+    ],
+    "coverage": "Gicumbi Highlands",
+    "contact": "+250 788 303 777",
+    "availability": "7:00 AM - 5:00 PM"
+   }
+  ],
+  "artisan": [
+   {
+    "id": 1,
+    "name": "Imigongo Art Collective",
+    "location": "Nyakarambi",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.9,
+    "reviews": 156,
+    "priceRange": "$$",
+    "category": "Traditional Crafts",
+    "description": "Authentic Imigongo art created using traditional cow dung and natural pigments.",
+    "specialties": [
+     "Imigongo Painting",
+     "Traditional Art",
+     "Cultural Heritage"
+    ],
+    "products": [
+     "Wall Art",
+     "Decorative Panels",
+     "Custom Pieces"
+    ],
+    "experience": "50+ years of tradition",
+    "contact": "+250 788 666 777",
+    "workshopLocation": "Nyakarambi Cultural Center, Eastern Province",
+    "workshopVisits": true
+   },
+   {
+    "id": 2,
+    "name": "Thousand Hills Weavers",
+    "location": "Kigali",
+    "province": "Kigali City",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 203,
+    "priceRange": "$$$",
+    "category": "Textiles & Weaving",
+    "description": "Beautiful handwoven baskets, textiles, and home decor items by skilled artisans.",
+    "specialties": [
+     "Basket Weaving",
+     "Textile Art",
+     "Home Decor"
+    ],
+    "products": [
+     "Baskets",
+     "Rugs",
+     "Table Runners",
+     "Wall Hangings"
+    ],
+    "experience": "25 years",
+    "contact": "+250 788 777 888",
+    "workshopLocation": "Kigali Arts District, Downtown Kigali",
+    "workshopVisits": true
+   },
+   {
+    "id": 3,
+    "name": "Ubumuntu Pottery",
+    "location": "Rwamagana",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 87,
+    "priceRange": "$$",
+    "category": "Pottery & Ceramics",
+    "description": "Handcrafted pottery and ceramics using traditional Rwandan techniques.",
+    "specialties": [
+     "Traditional Pottery",
+     "Ceramic Art",
+     "Functional Pottery"
+    ],
+    "products": [
+     "Vases",
+     "Bowls",
+     "Decorative Items",
+     "Cookware"
+    ],
+    "experience": "15 years",
+    "contact": "+250 788 888 999",
+    "workshopLocation": "Rwamagana Pottery Studio, Eastern Province",
+    "workshopVisits": true
+   },
+   {
+    "id": 4,
+    "name": "Agaseke Masters",
+    "location": "Musanze",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "reviews": 134,
+    "priceRange": "$$$",
+    "category": "Traditional Crafts",
+    "description": "Expert craftsmen creating beautiful Agaseke baskets using traditional methods.",
+    "specialties": [
+     "Agaseke Baskets",
+     "Traditional Weaving",
+     "Cultural Art"
+    ],
+    "products": [
+     "Peace Baskets",
+     "Storage Baskets",
+     "Decorative Baskets"
+    ],
+    "experience": "30+ years",
+    "contact": "+250 788 999 000",
+    "workshopLocation": "Musanze Cultural Village, Northern Province",
+    "workshopVisits": true
+   },
+   {
+    "id": 5,
+    "name": "Modern Rwanda Jewelry",
+    "location": "Kigali",
+    "province": "Kigali City",
+    "image": "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 98,
+    "priceRange": "$$$",
+    "category": "Jewelry & Accessories",
+    "description": "Contemporary jewelry designs inspired by Rwandan culture and traditions.",
+    "specialties": [
+     "Modern Jewelry",
+     "Cultural Jewelry",
+     "Custom Design"
+    ],
+    "products": [
+     "Necklaces",
+     "Earrings",
+     "Bracelets",
+     "Custom Pieces"
+    ],
+    "experience": "10 years",
+    "contact": "+250 788 000 111",
+    "workshopLocation": "Kigali Jewelry Studio, Kigali City Center",
+    "workshopVisits": false
+   },
+   {
+    "id": 6,
+    "name": "Wood Carving Studio",
+    "location": "Butare",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 76,
+    "priceRange": "$$",
+    "category": "Wood Carving",
+    "description": "Skilled wood carvers creating sculptures, masks, and decorative items.",
+    "specialties": [
+     "Wood Carving",
+     "Sculpture",
+     "Traditional Masks"
+    ],
+    "products": [
+     "Sculptures",
+     "Masks",
+     "Decorative Items",
+     "Furniture"
+    ],
+    "experience": "20 years",
+    "contact": "+250 788 111 222",
+    "workshopLocation": "Butare Woodworking Center, Southern Province",
+    "workshopVisits": true
+   },
+   {
+    "id": 7,
+    "name": "Lake Kivu Soap Cooperative",
+    "location": "Rubavu",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 112,
+    "priceRange": "$$",
+    "category": "Traditional Crafts",
+    "description": "Women-led cooperative crafting natural soaps, oils, and bath products from local botanicals.",
+    "specialties": [
+     "Natural Soap",
+     "Essential Oils",
+     "Body Care"
+    ],
+    "products": [
+     "Soap Bars",
+     "Massage Oils",
+     "Gift Sets",
+     "Scrubs"
+    ],
+    "experience": "12 years",
+    "contact": "+250 788 222 333",
+    "workshopLocation": "Rubavu Artisan Hub, Western Province",
+    "workshopVisits": true
+   },
+   {
+    "id": 8,
+    "name": "Karongi Driftwood Studio",
+    "location": "Karongi",
+    "province": "Western Province",
+    "image": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 68,
+    "priceRange": "$$",
+    "category": "Wood Carving",
+    "description": "Lakeside studio turning recovered driftwood into sculptures, bowls, and décor.",
+    "specialties": [
+     "Driftwood Art",
+     "Functional Woodcraft",
+     "Custom Carving"
+    ],
+    "products": [
+     "Bowls",
+     "Sculptures",
+     "Wall Art",
+     "Serving Boards"
+    ],
+    "experience": "18 years",
+    "contact": "+250 788 333 444",
+    "workshopLocation": "Karongi Lakeshore Workshop, Western Province",
+    "workshopVisits": true
+   },
+   {
+    "id": 9,
+    "name": "Nyanza Royal Beaders",
+    "location": "Nyanza",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "reviews": 94,
+    "priceRange": "$$$",
+    "category": "Jewelry & Accessories",
+    "description": "Beadwork inspired by royal court traditions, including ceremonial pieces and modern jewelry.",
+    "specialties": [
+     "Beadwork",
+     "Ceremonial Jewelry",
+     "Cultural Accessories"
+    ],
+    "products": [
+     "Necklaces",
+     "Bracelets",
+     "Belts",
+     "Custom Sets"
+    ],
+    "experience": "22 years",
+    "contact": "+250 788 444 555",
+    "workshopLocation": "Nyanza Cultural Village, Southern Province",
+    "workshopVisits": true
+   },
+   {
+    "id": 10,
+    "name": "Gicumbi Tea Craft Weavers",
+    "location": "Gicumbi",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 59,
+    "priceRange": "$$",
+    "category": "Textiles & Weaving",
+    "description": "Highland weavers creating tea-themed textiles, scarves, and table linens from local fibers.",
+    "specialties": [
+     "Hand Weaving",
+     "Natural Dyes",
+     "Home Textiles"
+    ],
+    "products": [
+     "Scarves",
+     "Table Linens",
+     "Tea Towels",
+     "Throws"
+    ],
+    "experience": "14 years",
+    "contact": "+250 788 555 666",
+    "workshopLocation": "Gicumbi Tea Hills Cooperative, Northern Province",
+    "workshopVisits": true
+   },
+   {
+    "id": 11,
+    "name": "Kayonza Clay Collective",
+    "location": "Kayonza",
+    "province": "Eastern Province",
+    "image": "https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "reviews": 47,
+    "priceRange": "$",
+    "category": "Pottery & Ceramics",
+    "description": "Community pottery workshop producing affordable ceramics using eastern Rwanda clay.",
+    "specialties": [
+     "Earthenware",
+     "Garden Pottery",
+     "Cooking Pots"
+    ],
+    "products": [
+     "Pots",
+     "Planters",
+     "Mugs",
+     "Decorative Plates"
+    ],
+    "experience": "9 years",
+    "contact": "+250 788 666 777",
+    "workshopLocation": "Kayonza Clay Yard, Eastern Province",
+    "workshopVisits": true
+   }
+  ],
+  "shop": [
+   {
+    "id": 1,
+    "name": "ZANAA",
+    "location": "Online · Nationwide Rwanda",
+    "province": "Nationwide",
+    "rating": 4.9,
+    "reviews": 1280,
+    "image": "/images/shops/zanaa-logo.png",
+    "logo": "/images/shops/zanaa-logo.png",
+    "specialties": [
+     "Electronics",
+     "Fashion & Kitenge",
+     "Home Essentials",
+     "Groceries",
+     "Gadgets"
+    ],
+    "hours": "24/7 Online",
+    "services": [
+     "Home Delivery",
+     "Secure Checkout",
+     "Order Tracking",
+     "Returns Support",
+     "Mobile App"
+    ],
+    "description": "Rwanda’s online shop for everyday life — electronics, fashion, home goods, groceries, and more. Shop anytime at www.zanaa.rw with fast delivery and secure payments.",
+    "category": "Online Marketplace",
+    "type": "online",
+    "website": "https://www.zanaa.rw",
+    "featured": true,
+    "delivery": [
+     "Kigali delivery",
+     "Nationwide shipping",
+     "Free standard Kigali shipping from RWF 100,000"
+    ],
+    "paymentMethods": [
+     "Mobile Money",
+     "Cards",
+     "Secure Online Checkout"
+    ]
+   },
+   {
+    "id": 2,
+    "name": "Simba Supermarket",
+    "location": "Kigali City Center",
+    "province": "Kigali",
+    "rating": 4.8,
+    "reviews": 420,
+    "image": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Fresh Produce",
+     "International Foods",
+     "Electronics"
+    ],
+    "hours": "7:00 AM - 10:00 PM",
+    "services": [
+     "Home Delivery",
+     "Online Shopping",
+     "Parking Available"
+    ],
+    "description": "Premium supermarket chain offering local and international products for daily essentials.",
+    "category": "Supermarket",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money",
+     "Cards"
+    ]
+   },
+   {
+    "id": 3,
+    "name": "Nakumatt Rwanda",
+    "location": "Union Trade Center, Kigali",
+    "province": "Kigali",
+    "rating": 4.6,
+    "reviews": 310,
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Bulk Shopping",
+     "Household Items",
+     "Fashion"
+    ],
+    "hours": "8:00 AM - 9:00 PM",
+    "services": [
+     "Member Discounts",
+     "Gift Cards",
+     "Customer Service"
+    ],
+    "description": "One-stop shopping destination for household essentials and everyday needs.",
+    "category": "Supermarket",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money",
+     "Cards"
+    ]
+   },
+   {
+    "id": 4,
+    "name": "Lemigo Supermarket",
+    "location": "Remera, Kigali",
+    "province": "Kigali",
+    "rating": 4.7,
+    "reviews": 285,
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Organic Products",
+     "Local Brands",
+     "Fresh Bakery"
+    ],
+    "hours": "6:30 AM - 11:00 PM",
+    "services": [
+     "Express Checkout",
+     "Mobile Payment",
+     "Loyalty Program"
+    ],
+    "description": "Supporting local producers while offering a full supermarket shopping experience.",
+    "category": "Supermarket",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money",
+     "Cards"
+    ]
+   },
+   {
+    "id": 5,
+    "name": "Kigali Craft Market",
+    "location": "Kimisagara, Kigali",
+    "province": "Kigali",
+    "rating": 4.9,
+    "reviews": 312,
+    "image": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Handmade Crafts",
+     "Traditional Art",
+     "Souvenirs"
+    ],
+    "hours": "8:00 AM - 6:00 PM",
+    "services": [
+     "Custom Orders",
+     "Gift Wrapping",
+     "International Shipping"
+    ],
+    "description": "Authentic Rwandan crafts and traditional art pieces made by local artisans.",
+    "category": "Arts & Crafts",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 6,
+    "name": "Kigali Fashion Week Boutique",
+    "location": "Kigali Heights, Kigali",
+    "province": "Kigali",
+    "rating": 4.7,
+    "reviews": 198,
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "African Fashion",
+     "Designer Clothing",
+     "Accessories"
+    ],
+    "hours": "9:00 AM - 8:00 PM",
+    "services": [
+     "Personal Styling",
+     "Alterations",
+     "VIP Shopping"
+    ],
+    "description": "Contemporary African fashion and designer pieces from Rwanda's top fashion designers.",
+    "category": "Fashion & Clothing",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money",
+     "Cards"
+    ]
+   },
+   {
+    "id": 7,
+    "name": "Rwanda Coffee House Shop",
+    "location": "Nyarutarama, Kigali",
+    "province": "Kigali",
+    "rating": 4.8,
+    "reviews": 256,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Premium Coffee",
+     "Tea Blends",
+     "Coffee Equipment"
+    ],
+    "hours": "6:00 AM - 9:00 PM",
+    "services": [
+     "Coffee Tasting",
+     "Barista Training",
+     "Corporate Gifts"
+    ],
+    "description": "Premium Rwandan coffee and tea, directly sourced from local farmers.",
+    "category": "Coffee & Tea",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money",
+     "Cards"
+    ]
+   },
+   {
+    "id": 8,
+    "name": "Ubworozi Gallery Shop",
+    "location": "Kacyiru, Kigali",
+    "province": "Kigali",
+    "rating": 4.6,
+    "reviews": 141,
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Contemporary Art",
+     "Sculptures",
+     "Photography"
+    ],
+    "hours": "10:00 AM - 7:00 PM",
+    "services": [
+     "Art Consultation",
+     "Framing Service",
+     "Exhibition Space"
+    ],
+    "description": "Contemporary Rwandan art and sculptures from emerging and established artists.",
+    "category": "Arts & Crafts",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money",
+     "Cards"
+    ]
+   },
+   {
+    "id": 9,
+    "name": "Musanze Fresh Mart",
+    "location": "Musanze Town",
+    "province": "Northern Province",
+    "rating": 4.5,
+    "reviews": 167,
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Mountain Produce",
+     "Camping Foods",
+     "Local Dairy"
+    ],
+    "hours": "7:00 AM - 9:00 PM",
+    "services": [
+     "Trail Snack Packs",
+     "Mobile Payment",
+     "Parking"
+    ],
+    "description": "Convenient supermarket for trekkers stocking up before Volcanoes National Park visits.",
+    "category": "Supermarket",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 10,
+    "name": "Musanze Mountain Gear",
+    "location": "Musanze Town Center",
+    "province": "Northern Province",
+    "rating": 4.7,
+    "reviews": 167,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Trekking Gear",
+     "Outdoor Wear",
+     "Camping Supplies"
+    ],
+    "hours": "7:00 AM - 7:00 PM",
+    "services": [
+     "Gear Rental",
+     "Trail Advice",
+     "Same-Day Pickup"
+    ],
+    "description": "One-stop shop for gorilla trekking equipment and Volcanoes National Park essentials.",
+    "category": "Sports & Outdoor",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 11,
+    "name": "Rubavu Lake Market",
+    "location": "Rubavu (Gisenyi)",
+    "province": "Western Province",
+    "rating": 4.4,
+    "reviews": 122,
+    "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Fresh Fish",
+     "Imported Goods",
+     "Beach Supplies"
+    ],
+    "hours": "7:00 AM - 8:30 PM",
+    "services": [
+     "Home Delivery",
+     "Cold Storage",
+     "Parking"
+    ],
+    "description": "Lakeside supermarket with fresh fish counters and essentials for Lake Kivu stays.",
+    "category": "Supermarket",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money",
+     "Cards"
+    ]
+   },
+   {
+    "id": 12,
+    "name": "Rubavu Lakeside Market",
+    "location": "Gisenyi Beach Road, Rubavu",
+    "province": "Western Province",
+    "rating": 4.5,
+    "reviews": 122,
+    "image": "https://images.unsplash.com/photo-1488459716781-31f658f8ea47?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Fresh Fish",
+     "Local Snacks",
+     "Handmade Jewelry"
+    ],
+    "hours": "6:00 AM - 6:00 PM",
+    "services": [
+     "Cash & Mobile Money",
+     "Gift Wrapping",
+     "Local Guides"
+    ],
+    "description": "Bustling lakeside stalls with fresh catch, snacks, and crafts from western Rwanda.",
+    "category": "Markets",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 13,
+    "name": "Huye Community Store",
+    "location": "Huye",
+    "province": "Southern Province",
+    "rating": 4.3,
+    "reviews": 98,
+    "image": "https://images.unsplash.com/photo-1534723452862-4c874018d66d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Student Essentials",
+     "Local Produce",
+     "Household Items"
+    ],
+    "hours": "7:30 AM - 8:00 PM",
+    "services": [
+     "Student Discounts",
+     "Mobile Payment",
+     "Parcel Hold"
+    ],
+    "description": "Neighborhood supermarket serving Huye residents, students, and museum visitors.",
+    "category": "Supermarket",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 14,
+    "name": "Huye Book & Craft Corner",
+    "location": "Huye University Area",
+    "province": "Southern Province",
+    "rating": 4.4,
+    "reviews": 89,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Local Literature",
+     "Stationery",
+     "Student Crafts"
+    ],
+    "hours": "8:00 AM - 7:00 PM",
+    "services": [
+     "Book Orders",
+     "Gift Wrapping",
+     "Study Supplies"
+    ],
+    "description": "Independent shop near the National University offering books and handmade campus crafts.",
+    "category": "Books & Media",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 15,
+    "name": "Nyanza Heritage Boutique",
+    "location": "Near King's Palace, Nyanza",
+    "province": "Southern Province",
+    "rating": 4.8,
+    "reviews": 134,
+    "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Royal-Inspired Fashion",
+     "Beadwork",
+     "Cultural Souvenirs"
+    ],
+    "hours": "9:00 AM - 5:30 PM",
+    "services": [
+     "Custom Orders",
+     "Museum Combo Tickets",
+     "Guided Shopping"
+    ],
+    "description": "Boutique celebrating southern Rwanda’s royal heritage with curated artisan goods.",
+    "category": "Fashion & Clothing",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 16,
+    "name": "Kayonza Safari Mart",
+    "location": "Kayonza",
+    "province": "Eastern Province",
+    "rating": 4.2,
+    "reviews": 76,
+    "image": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Safari Snacks",
+     "Water & Soft Drinks",
+     "Travel Toiletries"
+    ],
+    "hours": "6:30 AM - 8:00 PM",
+    "services": [
+     "Picnic Packs",
+     "Ice Boxes",
+     "Parking"
+    ],
+    "description": "Last-stop supermarket for travelers entering Akagera National Park.",
+    "category": "Supermarket",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 17,
+    "name": "Kayonza Safari Outfitters",
+    "location": "Kayonza Town",
+    "province": "Eastern Province",
+    "rating": 4.3,
+    "reviews": 76,
+    "image": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Safari Clothing",
+     "Binoculars",
+     "Travel Essentials"
+    ],
+    "hours": "7:30 AM - 6:30 PM",
+    "services": [
+     "Park Map Packs",
+     "Gear Hire",
+     "Mobile Money"
+    ],
+    "description": "Practical gear shop for travelers heading into Akagera National Park.",
+    "category": "Sports & Outdoor",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 18,
+    "name": "Muhanga Central Market",
+    "location": "Muhanga",
+    "province": "Southern Province",
+    "rating": 4.1,
+    "reviews": 88,
+    "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Bulk Staples",
+     "Fresh Produce",
+     "Household Goods"
+    ],
+    "hours": "6:00 AM - 7:00 PM",
+    "services": [
+     "Wholesale Options",
+     "Mobile Payment",
+     "Loading Zone"
+    ],
+    "description": "Busy central supermarket on the Kigali–Huye route for locals and road-trippers.",
+    "category": "Supermarket",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   },
+   {
+    "id": 19,
+    "name": "Karongi Lake Gifts",
+    "location": "Karongi Waterfront",
+    "province": "Western Province",
+    "rating": 4.4,
+    "reviews": 68,
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Jewelry",
+     "Lake Souvenirs",
+     "Home Decor"
+    ],
+    "hours": "8:00 AM - 6:00 PM",
+    "services": [
+     "Gift Wrapping",
+     "Custom Orders",
+     "Local Delivery"
+    ],
+    "description": "Small lakeside shop with jewelry and keepsakes inspired by Lake Kivu.",
+    "category": "Jewelry",
+    "type": "physical",
+    "paymentMethods": [
+     "Cash",
+     "Mobile Money"
+    ]
+   }
+  ],
+  "spa": [
+   {
+    "id": 1,
+    "name": "Kigali Serena Spa",
+    "location": "Kigali Serena Hotel, Kigali",
+    "province": "Kigali",
+    "rating": 4.9,
+    "reviews": 286,
+    "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Deep Tissue Massage",
+     "Hot Stone Therapy",
+     "Aromatherapy"
+    ],
+    "hours": "9:00 AM - 9:00 PM",
+    "facilities": [
+     "Steam Room",
+     "Sauna",
+     "Jacuzzi",
+     "Private Rooms"
+    ],
+    "description": "Luxurious spa in the heart of Kigali with world-class treatments and hotel amenities.",
+    "priceFrom": 60,
+    "priceTo": 200,
+    "phone": "+250 788 100 101",
+    "featured": true,
+    "treatments": [
+     {
+      "id": "relaxation-massage",
+      "name": "Relaxation Massage",
+      "description": "Full-body massage to release stress and restore calm.",
+      "durationMinutes": 60,
+      "priceUsd": 55,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "deep-tissue",
+      "name": "Deep Tissue Massage",
+      "description": "Focused pressure for sore muscles after travel or trekking.",
+      "durationMinutes": 75,
+      "priceUsd": 75,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "hot-stone",
+      "name": "Hot Stone Therapy",
+      "description": "Heated stones ease tension across the back and shoulders.",
+      "durationMinutes": 75,
+      "priceUsd": 85,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "aromatherapy",
+      "name": "Aromatherapy Massage",
+      "description": "Essential oils blended for mind and body balance.",
+      "durationMinutes": 60,
+      "priceUsd": 65,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "couples",
+      "name": "Couples Treatment",
+      "description": "Side-by-side massage experience for two guests.",
+      "durationMinutes": 90,
+      "priceUsd": 140,
+      "category": "package",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "facial",
+      "name": "Facial Treatment",
+      "description": "Cleansing, hydration, and skin rejuvenation.",
+      "durationMinutes": 60,
+      "priceUsd": 50,
+      "category": "facial",
+      "image": "https://images.unsplash.com/photo-1570172619644-dfd98ed36de5?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "sauna-session",
+      "name": "Sauna Session",
+      "description": "Traditional or infrared sauna with cool-down time.",
+      "durationMinutes": 45,
+      "priceUsd": 30,
+      "category": "sauna",
+      "image": "https://images.unsplash.com/photo-1583416750470-f482a395f3d8?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "spa-package",
+      "name": "Spa Day Package",
+      "description": "Massage + sauna + facial in one restorative visit.",
+      "durationMinutes": 150,
+      "priceUsd": 160,
+      "category": "package",
+      "image": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=800&q=80"
+     }
+    ]
+   },
+   {
+    "id": 2,
+    "name": "Ubumuntu Wellness Center",
+    "location": "Nyarutarama, Kigali",
+    "province": "Kigali",
+    "rating": 4.8,
+    "reviews": 198,
+    "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Traditional Healing",
+     "Reflexology",
+     "Couples Massage"
+    ],
+    "hours": "8:00 AM - 8:00 PM",
+    "facilities": [
+     "Herbal Steam",
+     "Meditation Room",
+     "Yoga Classes"
+    ],
+    "description": "Traditional Rwandan wellness practices combined with modern therapeutic techniques.",
+    "priceFrom": 45,
+    "priceTo": 150,
+    "phone": "+250 788 100 202",
+    "treatments": [
+     {
+      "id": "relaxation-massage",
+      "name": "Relaxation Massage",
+      "description": "Full-body massage to release stress and restore calm.",
+      "durationMinutes": 60,
+      "priceUsd": 55,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "aromatherapy",
+      "name": "Aromatherapy Massage",
+      "description": "Essential oils blended for mind and body balance.",
+      "durationMinutes": 60,
+      "priceUsd": 65,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "couples",
+      "name": "Couples Treatment",
+      "description": "Side-by-side massage experience for two guests.",
+      "durationMinutes": 90,
+      "priceUsd": 140,
+      "category": "package",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "body-scrub",
+      "name": "Body Scrub",
+      "description": "Exfoliating scrub for smooth, refreshed skin.",
+      "durationMinutes": 45,
+      "priceUsd": 45,
+      "category": "body",
+      "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "sauna-session",
+      "name": "Sauna Session",
+      "description": "Traditional or infrared sauna with cool-down time.",
+      "durationMinutes": 45,
+      "priceUsd": 30,
+      "category": "sauna",
+      "image": "https://images.unsplash.com/photo-1583416750470-f482a395f3d8?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "facial",
+      "name": "Facial Treatment",
+      "description": "Cleansing, hydration, and skin rejuvenation.",
+      "durationMinutes": 60,
+      "priceUsd": 50,
+      "category": "facial",
+      "image": "https://images.unsplash.com/photo-1570172619644-dfd98ed36de5?auto=format&fit=crop&w=800&q=80"
+     }
+    ]
+   },
+   {
+    "id": 3,
+    "name": "Zen Garden Spa",
+    "location": "Kimihurura, Kigali",
+    "province": "Kigali",
+    "rating": 4.7,
+    "reviews": 164,
+    "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Swedish Massage",
+     "Facial Treatments",
+     "Body Wraps"
+    ],
+    "hours": "10:00 AM - 7:00 PM",
+    "facilities": [
+     "Infrared Sauna",
+     "Cold Plunge",
+     "Relaxation Lounge"
+    ],
+    "description": "Modern wellness center offering rejuvenating treatments in a tranquil garden setting.",
+    "priceFrom": 50,
+    "priceTo": 180,
+    "phone": "+250 788 100 303",
+    "treatments": [
+     {
+      "id": "relaxation-massage",
+      "name": "Relaxation Massage",
+      "description": "Full-body massage to release stress and restore calm.",
+      "durationMinutes": 60,
+      "priceUsd": 55,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "deep-tissue",
+      "name": "Deep Tissue Massage",
+      "description": "Focused pressure for sore muscles after travel or trekking.",
+      "durationMinutes": 75,
+      "priceUsd": 75,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "facial",
+      "name": "Facial Treatment",
+      "description": "Cleansing, hydration, and skin rejuvenation.",
+      "durationMinutes": 60,
+      "priceUsd": 50,
+      "category": "facial",
+      "image": "https://images.unsplash.com/photo-1570172619644-dfd98ed36de5?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "body-scrub",
+      "name": "Body Scrub",
+      "description": "Exfoliating scrub for smooth, refreshed skin.",
+      "durationMinutes": 45,
+      "priceUsd": 45,
+      "category": "body",
+      "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "sauna-session",
+      "name": "Sauna Session",
+      "description": "Traditional or infrared sauna with cool-down time.",
+      "durationMinutes": 45,
+      "priceUsd": 30,
+      "category": "sauna",
+      "image": "https://images.unsplash.com/photo-1583416750470-f482a395f3d8?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "spa-package",
+      "name": "Spa Day Package",
+      "description": "Massage + sauna + facial in one restorative visit.",
+      "durationMinutes": 150,
+      "priceUsd": 160,
+      "category": "package",
+      "image": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=800&q=80"
+     }
+    ]
+   },
+   {
+    "id": 4,
+    "name": "Virunga Recovery Spa",
+    "location": "Musanze",
+    "province": "Northern Province",
+    "rating": 4.8,
+    "reviews": 172,
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Post-Trek Massage",
+     "Muscle Recovery",
+     "Herbal Compress"
+    ],
+    "hours": "8:00 AM - 8:00 PM",
+    "facilities": [
+     "Sauna",
+     "Steam Room",
+     "Foot Spa"
+    ],
+    "description": "Mountain spa designed for gorilla trekkers needing deep recovery after long hikes.",
+    "priceFrom": 55,
+    "priceTo": 160,
+    "phone": "+250 788 100 404",
+    "featured": true,
+    "treatments": [
+     {
+      "id": "post-trek",
+      "name": "Post-Trek Recovery",
+      "description": "Muscle recovery massage designed for hikers and trekkers.",
+      "durationMinutes": 75,
+      "priceUsd": 80,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "deep-tissue",
+      "name": "Deep Tissue Massage",
+      "description": "Focused pressure for sore muscles after travel or trekking.",
+      "durationMinutes": 75,
+      "priceUsd": 75,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "hot-stone",
+      "name": "Hot Stone Therapy",
+      "description": "Heated stones ease tension across the back and shoulders.",
+      "durationMinutes": 75,
+      "priceUsd": 85,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "relaxation-massage",
+      "name": "Relaxation Massage",
+      "description": "Full-body massage to release stress and restore calm.",
+      "durationMinutes": 60,
+      "priceUsd": 55,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "sauna-session",
+      "name": "Sauna Session",
+      "description": "Traditional or infrared sauna with cool-down time.",
+      "durationMinutes": 45,
+      "priceUsd": 30,
+      "category": "sauna",
+      "image": "https://images.unsplash.com/photo-1583416750470-f482a395f3d8?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "body-scrub",
+      "name": "Body Scrub",
+      "description": "Exfoliating scrub for smooth, refreshed skin.",
+      "durationMinutes": 45,
+      "priceUsd": 45,
+      "category": "body",
+      "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80"
+     }
+    ]
+   },
+   {
+    "id": 5,
+    "name": "Lake Kivu Shore Spa",
+    "location": "Rubavu (Gisenyi)",
+    "province": "Western Province",
+    "rating": 4.6,
+    "reviews": 141,
+    "image": "https://images.unsplash.com/photo-1583416750470-965b2707b355?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Lakeside Massage",
+     "Couples Packages",
+     "Aromatherapy"
+    ],
+    "hours": "9:00 AM - 7:00 PM",
+    "facilities": [
+     "Outdoor Cabana",
+     "Sauna",
+     "Hot Tub"
+    ],
+    "description": "Open-air wellness cabanas with lake breezes and sunset treatment slots.",
+    "priceFrom": 45,
+    "priceTo": 140,
+    "phone": "+250 788 100 505",
+    "treatments": [
+     {
+      "id": "relaxation-massage",
+      "name": "Relaxation Massage",
+      "description": "Full-body massage to release stress and restore calm.",
+      "durationMinutes": 60,
+      "priceUsd": 55,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "aromatherapy",
+      "name": "Aromatherapy Massage",
+      "description": "Essential oils blended for mind and body balance.",
+      "durationMinutes": 60,
+      "priceUsd": 65,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "couples",
+      "name": "Couples Treatment",
+      "description": "Side-by-side massage experience for two guests.",
+      "durationMinutes": 90,
+      "priceUsd": 140,
+      "category": "package",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "sauna-session",
+      "name": "Sauna Session",
+      "description": "Traditional or infrared sauna with cool-down time.",
+      "durationMinutes": 45,
+      "priceUsd": 30,
+      "category": "sauna",
+      "image": "https://images.unsplash.com/photo-1583416750470-f482a395f3d8?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "facial",
+      "name": "Facial Treatment",
+      "description": "Cleansing, hydration, and skin rejuvenation.",
+      "durationMinutes": 60,
+      "priceUsd": 50,
+      "category": "facial",
+      "image": "https://images.unsplash.com/photo-1570172619644-dfd98ed36de5?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "spa-package",
+      "name": "Spa Day Package",
+      "description": "Massage + sauna + facial in one restorative visit.",
+      "durationMinutes": 150,
+      "priceUsd": 160,
+      "category": "package",
+      "image": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=800&q=80"
+     }
+    ]
+   },
+   {
+    "id": 6,
+    "name": "Nyungwe Forest Wellness",
+    "location": "Nyamagabe / Nyungwe",
+    "province": "Southern Province",
+    "rating": 4.5,
+    "reviews": 98,
+    "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Forest Aromatherapy",
+     "Guided Breathwork",
+     "Swedish Massage"
+    ],
+    "hours": "9:00 AM - 6:00 PM",
+    "facilities": [
+     "Herbal Steam",
+     "Quiet Lounge",
+     "Nature Walk Add-on"
+    ],
+    "description": "Eco spa near Nyungwe Forest using local botanicals after canopy walks and hikes.",
+    "priceFrom": 50,
+    "priceTo": 130,
+    "phone": "+250 788 100 606",
+    "treatments": [
+     {
+      "id": "aromatherapy",
+      "name": "Aromatherapy Massage",
+      "description": "Essential oils blended for mind and body balance.",
+      "durationMinutes": 60,
+      "priceUsd": 65,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "relaxation-massage",
+      "name": "Relaxation Massage",
+      "description": "Full-body massage to release stress and restore calm.",
+      "durationMinutes": 60,
+      "priceUsd": 55,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "post-trek",
+      "name": "Post-Trek Recovery",
+      "description": "Muscle recovery massage designed for hikers and trekkers.",
+      "durationMinutes": 75,
+      "priceUsd": 80,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "sauna-session",
+      "name": "Sauna Session",
+      "description": "Traditional or infrared sauna with cool-down time.",
+      "durationMinutes": 45,
+      "priceUsd": 30,
+      "category": "sauna",
+      "image": "https://images.unsplash.com/photo-1583416750470-f482a395f3d8?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "body-scrub",
+      "name": "Body Scrub",
+      "description": "Exfoliating scrub for smooth, refreshed skin.",
+      "durationMinutes": 45,
+      "priceUsd": 45,
+      "category": "body",
+      "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80"
+     }
+    ]
+   },
+   {
+    "id": 7,
+    "name": "Karongi Sunset Sauna",
+    "location": "Karongi (Kibuye)",
+    "province": "Western Province",
+    "rating": 4.4,
+    "reviews": 87,
+    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Sauna Rituals",
+     "Hot Stone Therapy",
+     "Relaxation Massage"
+    ],
+    "hours": "10:00 AM - 8:00 PM",
+    "facilities": [
+     "Wood Sauna",
+     "Cold Plunge",
+     "Lake View Deck"
+    ],
+    "description": "Intimate lakeside sauna house perfect for unwinding after a day on Lake Kivu.",
+    "priceFrom": 30,
+    "priceTo": 110,
+    "phone": "+250 788 100 707",
+    "treatments": [
+     {
+      "id": "sauna-session",
+      "name": "Sauna Session",
+      "description": "Traditional or infrared sauna with cool-down time.",
+      "durationMinutes": 45,
+      "priceUsd": 30,
+      "category": "sauna",
+      "image": "https://images.unsplash.com/photo-1583416750470-f482a395f3d8?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "hot-stone",
+      "name": "Hot Stone Therapy",
+      "description": "Heated stones ease tension across the back and shoulders.",
+      "durationMinutes": 75,
+      "priceUsd": 85,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "relaxation-massage",
+      "name": "Relaxation Massage",
+      "description": "Full-body massage to release stress and restore calm.",
+      "durationMinutes": 60,
+      "priceUsd": 55,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "aromatherapy",
+      "name": "Aromatherapy Massage",
+      "description": "Essential oils blended for mind and body balance.",
+      "durationMinutes": 60,
+      "priceUsd": 65,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "couples",
+      "name": "Couples Treatment",
+      "description": "Side-by-side massage experience for two guests.",
+      "durationMinutes": 90,
+      "priceUsd": 140,
+      "category": "package",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+     }
+    ]
+   },
+   {
+    "id": 8,
+    "name": "Huye University Wellness Hub",
+    "location": "Huye",
+    "province": "Southern Province",
+    "rating": 4.3,
+    "reviews": 64,
+    "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "specialties": [
+     "Relaxation Massage",
+     "Facial Treatments",
+     "Sauna"
+    ],
+    "hours": "9:00 AM - 7:00 PM",
+    "facilities": [
+     "Sauna",
+     "Treatment Rooms",
+     "Waiting Lounge"
+    ],
+    "description": "Friendly neighborhood spa for travelers exploring southern Rwanda’s cultural circuit.",
+    "priceFrom": 35,
+    "priceTo": 95,
+    "phone": "+250 788 100 808",
+    "treatments": [
+     {
+      "id": "relaxation-massage",
+      "name": "Relaxation Massage",
+      "description": "Full-body massage to release stress and restore calm.",
+      "durationMinutes": 60,
+      "priceUsd": 55,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "facial",
+      "name": "Facial Treatment",
+      "description": "Cleansing, hydration, and skin rejuvenation.",
+      "durationMinutes": 60,
+      "priceUsd": 50,
+      "category": "facial",
+      "image": "https://images.unsplash.com/photo-1570172619644-dfd98ed36de5?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "sauna-session",
+      "name": "Sauna Session",
+      "description": "Traditional or infrared sauna with cool-down time.",
+      "durationMinutes": 45,
+      "priceUsd": 30,
+      "category": "sauna",
+      "image": "https://images.unsplash.com/photo-1583416750470-f482a395f3d8?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "body-scrub",
+      "name": "Body Scrub",
+      "description": "Exfoliating scrub for smooth, refreshed skin.",
+      "durationMinutes": 45,
+      "priceUsd": 45,
+      "category": "body",
+      "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80"
+     },
+     {
+      "id": "deep-tissue",
+      "name": "Deep Tissue Massage",
+      "description": "Focused pressure for sore muscles after travel or trekking.",
+      "durationMinutes": 75,
+      "priceUsd": 75,
+      "category": "massage",
+      "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+     }
+    ]
+   }
+  ],
+  "history-culture": [
+   {
+    "id": 1,
+    "name": "Kigali Genocide Memorial",
+    "location": "Gisozi, Kigali",
+    "province": "Kigali",
+    "image": "/images/history-culture/kigali-genocide-memorial-gate.jpg",
+    "images": [
+     "/images/history-culture/kigali-genocide-memorial-gate.jpg",
+     "/images/history-culture/kigali-genocide-memorial-entrance-sign.jpg",
+     "/images/history-culture/kigali-genocide-memorial-family-photos.jpg"
+    ],
+    "rating": 4.9,
+    "reviews": 234,
+    "entryFee": 0,
+    "category": "memorial",
+    "description": "A moving memorial and education center commemorating the victims of the 1994 genocide against the Tutsi, with exhibitions that help visitors understand Rwanda's history and path to reconciliation.",
+    "learningHighlights": [
+     "1994 Genocide History",
+     "Survivor Testimonies",
+     "Documentation Center",
+     "Peace & Reconciliation"
+    ],
+    "visitExperiences": [
+     "Guided Tours",
+     "Educational Programs",
+     "Memorial Gardens",
+     "Exhibition Walkthroughs"
+    ],
+    "bestTimeToVisit": "Year-round",
+    "established": "2004",
+    "duration": "2-3 hours"
+   },
+   {
+    "id": 2,
+    "name": "Inema Arts Center",
+    "location": "Kigali",
+    "province": "Kigali",
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "reviews": 167,
+    "entryFee": 10,
+    "category": "cultural-center",
+    "description": "Contemporary art center showcasing Rwandan artists and promoting cultural exchange through exhibitions, workshops, and studio visits.",
+    "learningHighlights": [
+     "Contemporary Rwandan Art",
+     "Artist Stories",
+     "Creative Workshops",
+     "Cultural Exchange"
+    ],
+    "visitExperiences": [
+     "Art Exhibitions",
+     "Workshops",
+     "Artist Studio Visits",
+     "Cultural Events"
+    ],
+    "bestTimeToVisit": "Year-round",
+    "established": "2012",
+    "duration": "1-2 hours"
+   },
+   {
+    "id": 3,
+    "name": "King's Palace Museum",
+    "location": "Nyanza",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 189,
+    "entryFee": 10,
+    "category": "palace",
+    "description": "Historic royal court site where visitors learn about Rwanda's monarchy, traditional architecture, and the ceremonial life of the mwami.",
+    "learningHighlights": [
+     "Royal History",
+     "Traditional Architecture",
+     "Court Culture",
+     "Longhorn Cattle Heritage"
+    ],
+    "visitExperiences": [
+     "Palace Tour",
+     "Traditional Dance",
+     "Guided Storytelling",
+     "Photo Exhibits"
+    ],
+    "bestTimeToVisit": "Year-round",
+    "established": "2008",
+    "duration": "1.5-2 hours"
+   },
+   {
+    "id": 4,
+    "name": "Ethnographic Museum",
+    "location": "Huye",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "reviews": 152,
+    "entryFee": 10,
+    "category": "museum",
+    "description": "National museum presenting Rwanda's cultural heritage through artifacts, music, crafts, and everyday life across the ages.",
+    "learningHighlights": [
+     "Cultural Heritage",
+     "Traditional Crafts",
+     "Music & Dance",
+     "Daily Life History"
+    ],
+    "visitExperiences": [
+     "Museum Galleries",
+     "Educational Talks",
+     "Artifact Displays",
+     "School Programs"
+    ],
+    "bestTimeToVisit": "Year-round",
+    "established": "1989",
+    "duration": "2 hours"
+   },
+   {
+    "id": 5,
+    "name": "Campaign Against Genocide Museum",
+    "location": "Parliament Grounds, Kigali",
+    "province": "Kigali",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "reviews": 143,
+    "entryFee": 0,
+    "category": "museum",
+    "description": "Museum documenting the campaign that stopped the genocide and the rebuilding of national institutions, housed at the Parliament complex.",
+    "learningHighlights": [
+     "Liberation History",
+     "Institution Building",
+     "National Unity",
+     "Archive Materials"
+    ],
+    "visitExperiences": [
+     "Guided Museum Tours",
+     "Documentary Exhibits",
+     "Historical Photography",
+     "Educational Visits"
+    ],
+    "bestTimeToVisit": "Year-round",
+    "established": "2014",
+    "duration": "1.5-2 hours"
+   },
+   {
+    "id": 6,
+    "name": "Murambi Genocide Memorial",
+    "location": "Murambi, Nyamagabe",
+    "province": "Southern Province",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "reviews": 98,
+    "entryFee": 0,
+    "category": "memorial",
+    "description": "Powerful memorial site where visitors learn about the genocide through preserved classrooms and curated educational exhibits.",
+    "learningHighlights": [
+     "Genocide Education",
+     "Local History",
+     "Remembrance",
+     "Human Rights"
+    ],
+    "visitExperiences": [
+     "Memorial Walk",
+     "Guided Reflection",
+     "Exhibition Rooms",
+     "Quiet Contemplation"
+    ],
+    "bestTimeToVisit": "Year-round",
+    "established": "1995",
+    "duration": "1.5-2 hours"
+   },
+   {
+    "id": 7,
+    "name": "Presidential Palace Museum",
+    "location": "Kanombe, Kigali",
+    "province": "Kigali",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "reviews": 121,
+    "entryFee": 10,
+    "category": "museum",
+    "description": "Former presidential residence turned museum, offering insight into late-20th-century Rwandan political history and daily life of leadership.",
+    "learningHighlights": [
+     "Modern Political History",
+     "State Leadership",
+     "1990s Context",
+     "Historic Residences"
+    ],
+    "visitExperiences": [
+     "House Tour",
+     "Garden Walk",
+     "Photo Archives",
+     "Guided Interpretation"
+    ],
+    "bestTimeToVisit": "Year-round",
+    "established": "2009",
+    "duration": "1-2 hours"
+   },
+   {
+    "id": 8,
+    "name": "Iby'Iwacu Cultural Village",
+    "location": "Kinigi, Musanze",
+    "province": "Northern Province",
+    "image": "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "reviews": 176,
+    "entryFee": 35,
+    "category": "heritage-site",
+    "description": "Living cultural village where visitors learn traditional Rwandan customs, music, dance, medicine, and community life near Volcanoes National Park.",
+    "learningHighlights": [
+     "Traditional Customs",
+     "Local Medicine",
+     "Music & Dance",
+     "Community Life"
+    ],
+    "visitExperiences": [
+     "Village Tour",
+     "Cultural Performances",
+     "Hands-on Workshops",
+     "Local Cuisine Tasting"
+    ],
+    "bestTimeToVisit": "Year-round",
+    "established": "2006",
+    "duration": "2-3 hours"
+   }
+  ]
+ },
+ "spaTreatmentsCatalog": [
+  {
+   "id": "relaxation-massage",
+   "name": "Relaxation Massage",
+   "description": "Full-body massage to release stress and restore calm.",
+   "durationMinutes": 60,
+   "priceUsd": 55,
+   "category": "massage",
+   "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+   "id": "deep-tissue",
+   "name": "Deep Tissue Massage",
+   "description": "Focused pressure for sore muscles after travel or trekking.",
+   "durationMinutes": 75,
+   "priceUsd": 75,
+   "category": "massage",
+   "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+   "id": "hot-stone",
+   "name": "Hot Stone Therapy",
+   "description": "Heated stones ease tension across the back and shoulders.",
+   "durationMinutes": 75,
+   "priceUsd": 85,
+   "category": "massage",
+   "image": "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+   "id": "aromatherapy",
+   "name": "Aromatherapy Massage",
+   "description": "Essential oils blended for mind and body balance.",
+   "durationMinutes": 60,
+   "priceUsd": 65,
+   "category": "massage",
+   "image": "https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+   "id": "couples",
+   "name": "Couples Treatment",
+   "description": "Side-by-side massage experience for two guests.",
+   "durationMinutes": 90,
+   "priceUsd": 140,
+   "category": "package",
+   "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+   "id": "facial",
+   "name": "Facial Treatment",
+   "description": "Cleansing, hydration, and skin rejuvenation.",
+   "durationMinutes": 60,
+   "priceUsd": 50,
+   "category": "facial",
+   "image": "https://images.unsplash.com/photo-1570172619644-dfd98ed36de5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+   "id": "body-scrub",
+   "name": "Body Scrub",
+   "description": "Exfoliating scrub for smooth, refreshed skin.",
+   "durationMinutes": 45,
+   "priceUsd": 45,
+   "category": "body",
+   "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+   "id": "sauna-session",
+   "name": "Sauna Session",
+   "description": "Traditional or infrared sauna with cool-down time.",
+   "durationMinutes": 45,
+   "priceUsd": 30,
+   "category": "sauna",
+   "image": "https://images.unsplash.com/photo-1583416750470-f482a395f3d8?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+   "id": "post-trek",
+   "name": "Post-Trek Recovery",
+   "description": "Muscle recovery massage designed for hikers and trekkers.",
+   "durationMinutes": 75,
+   "priceUsd": 80,
+   "category": "massage",
+   "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+   "id": "spa-package",
+   "name": "Spa Day Package",
+   "description": "Massage + sauna + facial in one restorative visit.",
+   "durationMinutes": 150,
+   "priceUsd": 160,
+   "category": "package",
+   "image": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=800&q=80"
+  }
+ ],
+ "shopCategories": [
+  {
+   "id": "all",
+   "name": "All Categories",
+   "description": "Browse every shop type"
+  },
+  {
+   "id": "Online Marketplace",
+   "name": "Online Marketplace",
+   "description": "Shop anytime from anywhere"
+  },
+  {
+   "id": "Supermarket",
+   "name": "Supermarkets",
+   "description": "Fresh produce and daily essentials"
+  },
+  {
+   "id": "Arts & Crafts",
+   "name": "Arts & Crafts",
+   "description": "Traditional and contemporary artworks"
+  },
+  {
+   "id": "Fashion & Clothing",
+   "name": "Fashion & Clothing",
+   "description": "African fashion and designer wear"
+  },
+  {
+   "id": "Coffee & Tea",
+   "name": "Coffee & Tea",
+   "description": "Premium local coffee and tea blends"
+  },
+  {
+   "id": "Jewelry",
+   "name": "Jewelry",
+   "description": "Handcrafted jewelry and accessories"
+  },
+  {
+   "id": "Books & Media",
+   "name": "Books & Media",
+   "description": "Local literature and educational materials"
+  },
+  {
+   "id": "Sports & Outdoor",
+   "name": "Sports & Outdoor",
+   "description": "Trekking and safari gear"
+  },
+  {
+   "id": "Markets",
+   "name": "Markets",
+   "description": "Fresh goods and local stalls"
+  }
+ ]
+}
